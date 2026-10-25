@@ -122,16 +122,22 @@ export function transition(p: string | Portal, arriveOverride?: string | null): 
   enterScene(T.scene);
   setPan(Math.floor(T.x / 640) * 640);
   const dir = dirOfMask(T.dirMask);
-  R.hidden = false;
-  R.followGround = true;
-  R.currDirec = dir;
-  R.setPosition(T.x, T.y, 0);
-  const still = R.still[dir];
-  if (still) R.setTrack(still, 0);
-  const arrive = arriveOverride === undefined ? T.arrive : arriveOverride;
-  if (arrive) R.setTrack(arrive, 0x100, () => { busy.bits &= ~BUSY_PORTAL; });
-  else busy.bits &= ~BUSY_PORTAL;
-  if (gv.act === 3 && T.birk) {
+  // FUN_0046fce0: Ronja is placed (stand track, arrive track) only if the enter script left her at the portal position; a script that
+  // moved her (track with absolute position, standStill elsewhere, e.g. the cave's #707 delivery) keeps what it did
+  if (R.x === T.x && R.y === T.y) {
+    R.hidden = false;
+    R.followGround = true;
+    R.currDirec = dir;
+    R.setPosition(T.x, T.y, 0);
+    const still = R.still[dir];
+    if (still) R.setTrack(still, 0);
+    const arrive = arriveOverride === undefined ? T.arrive : arriveOverride;
+    if (arrive) R.setTrack(arrive, 0x100, () => { busy.bits &= ~BUSY_PORTAL; });
+    else busy.bits &= ~BUSY_PORTAL;
+  } else busy.bits &= ~BUSY_PORTAL;
+  // the scene's enter script has the last word about Birk (it hides him, starts his tracks or walks him in); only a
+  // visible, idle Birk is placed here
+  if (gv.act === 3 && T.birk && !B.hidden && !B.track && !B.walking) {
     B.hidden = false;
     B.followGround = true;
     B.currDirec = dir;

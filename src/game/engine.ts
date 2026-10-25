@@ -68,6 +68,8 @@ export interface EnterOptions {
   /** a minigame scene: no enter script, gVar mode untouched, optional explicit gfx base name */
   minigame?: boolean;
   gfx?: string;
+  /** keep a running dialogue chain alive (the original does not end it; track hooks that change scene mid-event, e.g. the forest fog) */
+  keepDialog?: boolean;
 }
 
 /**
@@ -81,8 +83,8 @@ export function enterScene(name: SceneName, opts: EnterOptions = {}): void {
   stopMusic();
   resetMasterVolume();
   hideAllObjects();
-  if (dialogActive()) abortDialog();
-  clearChoiceLines();
+  if (dialogActive() && !opts.keepDialog) abortDialog();
+  if (!opts.keepDialog) clearChoiceLines();
   ui.coinOpen = false; ui.invOpen = false; ui.mapOpen = false; ui.pressPending = false;
   const base = opts.gfx ?? sceneGfx(name);
   const idx = NFO_ORDER.indexOf(name);

@@ -175,6 +175,8 @@ interface FrameInfo {
   vidEnd: number;
 }
 
+export interface SmkSnapshot { decoded: number; indices: Uint8Array; palette: Uint32Array }
+
 export class Smacker {
   readonly version: 2 | 4;
   readonly width: number;
@@ -296,6 +298,27 @@ export class Smacker {
       this.decodeFrame(this.frames[this.decoded]);
     }
     this.draw(out);
+  }
+
+  /** Decode forward to frame `n` without drawing (decodes from 0 when going backwards). Use `indices` / `palette` afterwards. */
+  advanceTo(n: number) {
+    n = Math.max(-1, Math.min(this.frameCount - 1, n | 0));
+    if (n < this.decoded) this.reset();
+    while (this.decoded < n) {
+      this.decoded++;
+      this.decodeFrame(this.frames[this.decoded]);
+    }
+  }
+
+  /** Copy of the decoder state (frames are deltas): lets a player jump back to a frame without decoding from 0. */
+  snapshot(): SmkSnapshot {
+    return { decoded: this.decoded, indices: this.indices.slice(), palette: this.palette.slice() };
+  }
+
+  restore(s: SmkSnapshot) {
+    this.decoded = s.decoded;
+    this.indices.set(s.indices);
+    this.palette.set(s.palette);
   }
 
   /** Index of the frame currently held in the palette/indices (-1 = none). */
