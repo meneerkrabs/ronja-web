@@ -8,7 +8,7 @@ const NAMES: Record<number, string> = {
 };
 
 for (let mode = 1; mode <= 8; mode++) {
-  if (mode === 1 || mode === 7 || mode === 3 || mode === 4 || mode === 8 || mode === 2 || mode === 5 || mode === 6) continue; // real implementations: ski.ts, labyrinth.ts, dice.ts, river.ts, lake.ts, snowball.ts, cave.ts
+  if (mode === 1 || mode === 7 || mode === 3 || mode === 4 || mode === 8) continue; // real implementations: ski.ts, labyrinth.ts, dice.ts, river.ts
   let from: number = gv.scene;
   let pos = { x: 320, y: 380, dir: 4 };
   const mg: Minigame = {
