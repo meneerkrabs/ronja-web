@@ -1,0 +1,9880 @@
+{
+ "_source": "Game.exe static tables: events 0x4992f8 (746), says 0x499ea8 (827), alts 0x49ab98 (173, texts from language.str by position), hotspot groups 0x4990b8 (143). Sound files: sounds/**/<name lowercased>.wav Choice texts are not stored here: they are read from language.str on the CD at runtime (entry index = alt).",
+ "events": [
+  {
+   "id": 0,
+   "name": "_2a_002A1_Formaning",
+   "group": 0,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_2a_002A1Say1_AktaDej"
+   ],
+   "alts": []
+  },
+  {
+   "id": 1,
+   "name": "_2a_003A1_tittaMattis",
+   "group": 1,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_2a_003A1Say1_DetDarArMattis"
+   ],
+   "alts": []
+  },
+  {
+   "id": 2,
+   "name": "_2a_338A1_tittaMattis",
+   "group": 1,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 3,
+   "name": "_2a_004A1_talaMattis",
+   "group": 1,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "MATTIS_2a_004A1Say1_JaRonjaMi"
+   ],
+   "alts": [
+    {
+     "alt": 0,
+     "sound": "RONJA_2a_004A1Alt1_HurVetJag",
+     "next": "_2a_004A2_talaMattis"
+    },
+    {
+     "alt": 1,
+     "sound": "RONJA_2a_004A1Alt2_ArDetNagat",
+     "next": "_2a_004A2_talaMattis"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "_2a_004A2_talaMattis",
+   "group": 1,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_2a_004A2Say1_DetMarkerDu"
+   ],
+   "alts": [
+    {
+     "alt": 2,
+     "sound": "RONJA_2a_004A1Alt2_ArDetNagat",
+     "next": "_2a_004A3_talaMattis"
+    },
+    {
+     "alt": 3,
+     "sound": "RONJA_2a_004A2Alt2_JaDaSa",
+     "next": "_2a_004B1_talaMattis"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "_2a_004A3_talaMattis",
+   "group": 1,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_2a_004A3Say1_JaOchSa"
+   ],
+   "alts": [
+    {
+     "alt": 4,
+     "sound": "RONJA_2a_004A3Alt1_VadGorJag",
+     "next": "_2a_004A4_talaMattis"
+    },
+    {
+     "alt": 5,
+     "sound": "RONJA_2a_004A3Alt2_JaHa",
+     "next": "_2a_004B1_talaMattis"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "_2a_004A4_talaMattis",
+   "group": 1,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_2a_004A4Say1_LetarRedaPa"
+   ],
+   "alts": [
+    {
+     "alt": 6,
+     "sound": "RONJA_2a_004A1Alt2_ArDetNagat",
+     "next": "_2a_004A5_talaMattis"
+    },
+    {
+     "alt": 7,
+     "sound": "RONJA_2a_004A2Alt2_JaDaSa",
+     "next": "_2a_004B1_talaMattis"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "_2a_004A5_talaMattis",
+   "group": 1,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_2a_004A5Say1_JaOchSaAktar"
+   ],
+   "alts": [
+    {
+     "alt": 8,
+     "sound": "RONJA_2a_004A5Alt1_VadGorJagOm",
+     "next": "_2a_004A6_talaMattis"
+    },
+    {
+     "alt": 9,
+     "sound": "RONJA_2a_004A3Alt2_JaHa",
+     "next": "_2a_004B1_talaMattis"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "_2a_004A6_talaMattis",
+   "group": 1,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_2a_004A6Say1_Simmar"
+   ],
+   "alts": [
+    {
+     "alt": 10,
+     "sound": "RONJA_2a_004A1Alt2_ArDetNagat",
+     "next": "_2a_004A7_talaMattis"
+    },
+    {
+     "alt": 11,
+     "sound": "RONJA_2a_004A2Alt2_JaDaSa",
+     "next": "_2a_004B1_talaMattis"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "_2a_004A7_talaMattis",
+   "group": 1,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_2a_004A7Say1_JaOchSa"
+   ],
+   "alts": [
+    {
+     "alt": 12,
+     "sound": "RONJA_2a_004A7Alt1_VadGorJag",
+     "next": "_2a_004A8_talaMattis"
+    },
+    {
+     "alt": 13,
+     "sound": "RONJA_2a_004A3Alt2_JaHa",
+     "next": "_2a_004B1_talaMattis"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "_2a_004A8_talaMattis",
+   "group": 1,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_2a_004A8Say1_DaGorDa",
+    "MATTIS_2a_004A8Say1_Vral",
+    "RONJA_2a_004A8Say1_JaDaSa",
+    "MATTIS_2a_004A8Say2_JoFarAll"
+   ],
+   "alts": []
+  },
+  {
+   "id": 11,
+   "name": "_2a_004B1_talaMattis",
+   "group": 1,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_2a_004B1Say1_GoNu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 12,
+   "name": "_2a_005A1_taMattis",
+   "group": 1,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_2a_005A1Say1_NaHanAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 13,
+   "name": "_2a_006A1_taMattis",
+   "group": 1,
+   "verb": "hand",
+   "minUse": 2,
+   "next": null,
+   "says": [
+    "RONJA_2a_006A1Say1_NejJagOrkar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 14,
+   "name": "_2a_339A1_taMattis",
+   "group": 1,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 15,
+   "name": "_2a_007A1_tittaLovis",
+   "group": 2,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_2a_007A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 16,
+   "name": "_2a_340A1_tittaLovis",
+   "group": 2,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 17,
+   "name": "_2a_008A1_talaLovis",
+   "group": 2,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "LOVIS_2a_008A1Say1_HarRonja"
+   ],
+   "alts": []
+  },
+  {
+   "id": 18,
+   "name": "_2a_009A1_taLovis",
+   "group": 2,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_2a_009A1Say1_NaJagOrkar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 19,
+   "name": "_2a_010A1_taLovis",
+   "group": 2,
+   "verb": "hand",
+   "minUse": 2,
+   "next": null,
+   "says": [
+    "LOVIS_2a_010A1Say1_RonjaGaUt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 20,
+   "name": "_2a_341A1_taLovis",
+   "group": 2,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 21,
+   "name": "_1a_011A1_tittaSkallePer",
+   "group": 3,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_011A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 22,
+   "name": "_1a_342A1_tittaSkallePer",
+   "group": 3,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 23,
+   "name": "_1a_012A1_talaSkallePer",
+   "group": 3,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_012A1Say1_SkallePerVakna",
+    "SKALLEPER_1a_012A1Say1_FogdenKommer"
+   ],
+   "alts": []
+  },
+  {
+   "id": 24,
+   "name": "_1a_013A1_taSkallePer",
+   "group": 3,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_012A1Say1_SkallePerVakna",
+    "SKALLEPER_1a_013A1Say1_OckOckOck"
+   ],
+   "alts": [
+    {
+     "alt": 14,
+     "sound": "RONJA_1a_013A1Alt1_JagHarInget",
+     "next": "_1a_013A2_taSkallePer"
+    },
+    {
+     "alt": 15,
+     "sound": "RONJA_1a_013A1Alt2_JagVillSpela",
+     "next": "_1a_013B1_taSkallePer"
+    },
+    {
+     "alt": 16,
+     "sound": "RONJA_1a_013A1Alt3_SkallePerHur",
+     "next": "_1a_013C1_taSkallePer"
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "_1a_013A2_taSkallePer",
+   "group": 3,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013A2Say1_HarDuInget"
+   ],
+   "alts": [
+    {
+     "alt": 17,
+     "sound": "RONJA_1a_013A2Alt1_GarnaSpela",
+     "next": null
+    },
+    {
+     "alt": 18,
+     "sound": "RONJA_1a_013A2Alt2_NejKanDu",
+     "next": "_1a_013A3_taSkallePer"
+    },
+    {
+     "alt": 19,
+     "sound": "RONJA_1a_013A2Alt3_NejInteIdag",
+     "next": "_1a_013A4_taSkallePer"
+    },
+    {
+     "alt": 20,
+     "sound": "RONJA_1a_013A2Alt4_JagMaste",
+     "next": "_1a_013D1_taSkallePer"
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "_1a_013A3_taSkallePer",
+   "group": 3,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013A3Say1_DaSkaJAg"
+   ],
+   "alts": []
+  },
+  {
+   "id": 27,
+   "name": "_1a_013A4_taSkallePer",
+   "group": 3,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013A4Say1_EnSkatt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 28,
+   "name": "_1a_013B1_taSkallePer",
+   "group": 3,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013B1Say1_SpelaTarning"
+   ],
+   "alts": []
+  },
+  {
+   "id": 29,
+   "name": "_1a_013C1_taSkallePer",
+   "group": 3,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013C1Say1_StorNog"
+   ],
+   "alts": [
+    {
+     "alt": 21,
+     "sound": "RONJA_1a_013C1Alt1_MenHur",
+     "next": "_1a_013C2_taSkallePer"
+    },
+    {
+     "alt": 22,
+     "sound": "RONJA_1a_013C1Alt2_VilseHarDu",
+     "next": "_1a_013C3_taSkallePer"
+    },
+    {
+     "alt": 23,
+     "sound": "RONJA_1a_013C1Alt3_SnallaKanDu",
+     "next": "_1a_013C4_taSkallePer"
+    },
+    {
+     "alt": 24,
+     "sound": "RONJA_1a_013A2Alt4_JagMaste",
+     "next": "_1a_013D1_taSkallePer"
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "_1a_013C2_taSkallePer",
+   "group": 3,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013C2Say1_StorNog"
+   ],
+   "alts": []
+  },
+  {
+   "id": 31,
+   "name": "_1a_013C3_taSkallePer",
+   "group": 3,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013C3Say1_JaMenDet"
+   ],
+   "alts": []
+  },
+  {
+   "id": 32,
+   "name": "_1a_013C4_taSkallePer",
+   "group": 3,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013C4Say1_NajaFarLange"
+   ],
+   "alts": []
+  },
+  {
+   "id": 33,
+   "name": "_1a_013D1_taSkallePer",
+   "group": 3,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013D1Say1_GorSaDu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 34,
+   "name": "_1a_014A1_tittaKista",
+   "group": 4,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_014A1Say1_DetArEn"
+   ],
+   "alts": []
+  },
+  {
+   "id": 35,
+   "name": "_1a_345A1_tittaKista",
+   "group": 4,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 36,
+   "name": "_1a_015A1_talaKista",
+   "group": 4,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_015A1Say1_DetArEnKista"
+   ],
+   "alts": []
+  },
+  {
+   "id": 37,
+   "name": "_1a_346A1_talaKista",
+   "group": 4,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 38,
+   "name": "_1a_016A1_taKista",
+   "group": 4,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_016A1Say1_DetGarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 39,
+   "name": "_1a_347A1_taKista",
+   "group": 4,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 40,
+   "name": "_1a_017A1_oppnaKista",
+   "group": 4,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 41,
+   "name": "_1a_018A1_tittaKarta",
+   "group": 5,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_018A1Say1_DetSerUt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 42,
+   "name": "_1a_348A1_tittaKarta",
+   "group": 5,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 43,
+   "name": "_1a_019A1_talaKarta",
+   "group": 5,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_019A1Say1_FinnsDetNagan"
+   ],
+   "alts": []
+  },
+  {
+   "id": 44,
+   "name": "_1a_349A1_talaKarta",
+   "group": 5,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 45,
+   "name": "_1a_020A1_taKarta",
+   "group": 5,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_020A1Say1_DuMittHjarta"
+   ],
+   "alts": []
+  },
+  {
+   "id": 46,
+   "name": "_1b_021A1_LovisSpinner",
+   "group": 5,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_1b_021A1Say1_RonjaMi",
+    "LOVIS_1b_021A1Say1_ArDetMeningen",
+    "MATTIS_1b_021A1Say2_AhHanSkulle"
+   ],
+   "alts": []
+  },
+  {
+   "id": 47,
+   "name": "_1b_022A1_tittaLovis",
+   "group": 6,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1b_022A1Say1_LovisSitterOch"
+   ],
+   "alts": []
+  },
+  {
+   "id": 48,
+   "name": "_1b_350A1_tittaLovis",
+   "group": 6,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 49,
+   "name": "_1b_023A1_talaLovis",
+   "group": 6,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "LOVIS_1b_023A1Say1_VadArDet"
+   ],
+   "alts": [
+    {
+     "alt": 25,
+     "sound": "RONJA_1b_023A1Alt1_VemArBorka",
+     "next": "_1b_023A2_talaLovis"
+    },
+    {
+     "alt": 26,
+     "sound": "RONJA_1b_023A1Alt2_KanDuInte",
+     "next": "_1b_023B1_talaLovis"
+    },
+    {
+     "alt": 27,
+     "sound": "RONJA_1b_023A1Alt3_VadSkaJag",
+     "next": "_1b_023C1_talaLovis"
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "name": "_1b_023A2_talaLovis",
+   "group": 6,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LOVIS_1b_023A2Say1_BorkaDetAr"
+   ],
+   "alts": [
+    {
+     "alt": 28,
+     "sound": "RONJA_1b_023A2Alt1_VarforDa",
+     "next": "_1b_023A3_talaLovis"
+    },
+    {
+     "alt": 29,
+     "sound": "RONJA_1b_023A1Alt2_KanDuInte",
+     "next": "_1b_023B1_talaLovis"
+    },
+    {
+     "alt": 30,
+     "sound": "RONJA_1b_023A2Alt3_VadGorEn",
+     "next": "_1b_023A3_talaLovis"
+    },
+    {
+     "alt": 31,
+     "sound": "RONJA_1a_013A2Alt4_JagMaste",
+     "next": "_1b_023D1_talaLovis"
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "_1b_023A3_talaLovis",
+   "group": 6,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LOVIS_1b_023A3Say1_FragaFarDin"
+   ],
+   "alts": []
+  },
+  {
+   "id": 52,
+   "name": "_1b_023B1_talaLovis",
+   "group": 6,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LOVIS_1b_023B1Say1_LovisSjunger",
+    "LOVIS_1b_023B1Say1_SaMittBarn"
+   ],
+   "alts": []
+  },
+  {
+   "id": 53,
+   "name": "_1b_023C1_talaLovis",
+   "group": 6,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LOVIS_1b_023C1Say1_GaUtOch"
+   ],
+   "alts": []
+  },
+  {
+   "id": 54,
+   "name": "_1b_023D1_talaLovis",
+   "group": 6,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LOVIS_1b_023D1Say1_GorSaDu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 55,
+   "name": "_1b_023E1_talaLovis",
+   "group": 6,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LOVIS_1b_023E1Say1_RonjaTaDen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 56,
+   "name": "_1b_024A1_taLovis",
+   "group": 6,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1b_024A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 57,
+   "name": "_1b_351A1_tittaLovis",
+   "group": 6,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 58,
+   "name": "_1b_025A1_HjalpaLovis",
+   "group": 6,
+   "verb": "script",
+   "minUse": 0,
+   "next": "_1b_025A1_LovisGarUt",
+   "says": [
+    "LOVIS_1b_025A1Say1_RonjaMittBarn"
+   ],
+   "alts": []
+  },
+  {
+   "id": 59,
+   "name": "_1b_025A1_LovisGarUt",
+   "group": 6,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 60,
+   "name": "_1c_026A1_RovarMusik",
+   "group": 6,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 61,
+   "name": "_1c_027A1_tittaLillKlippen",
+   "group": 7,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_027A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 62,
+   "name": "_1c_352A1_tittaLillKlippen",
+   "group": 7,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 63,
+   "name": "_1c_028A1_talaLillKlippen",
+   "group": 7,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_1c_028A1Say1_NaMenSeRonja"
+   ],
+   "alts": [
+    {
+     "alt": 32,
+     "sound": "RONJA_1c_028A1Alt1_LillKlippenKan",
+     "next": "_1c_028A2_talaLillKLippen"
+    },
+    {
+     "alt": 33,
+     "sound": "RONJA_1c_028A1Alt2_BerattaOm",
+     "next": "_1c_028B1_talaLillKLippen"
+    },
+    {
+     "alt": 34,
+     "sound": "RONJA_1c_028A1Alt3_KanDuInte",
+     "next": "_1c_028C1_talaLillKLippen"
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "name": "_1c_028A2_talaLillKlippen",
+   "group": 7,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_1c_028A2Say1_VisstKanVi"
+   ],
+   "alts": []
+  },
+  {
+   "id": 65,
+   "name": "_1c_028B1_talaLillKlippen",
+   "group": 7,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_1c_028B1Say1_VildvittrornaArDet",
+    "LILLKLIPPEN_1c_028B1Say2_HohoLillaManniska",
+    "LILLKLIPPEN_1c_028B1Say3_JagSkojarBara"
+   ],
+   "alts": []
+  },
+  {
+   "id": 66,
+   "name": "_1c_028C1_talaLillKlippen",
+   "group": 7,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_1c_028C1Say3_InteIdagRovardotter"
+   ],
+   "alts": []
+  },
+  {
+   "id": 67,
+   "name": "_1c_029A1_taLillKlippen",
+   "group": 7,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_029A1Say1_JagKanInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 68,
+   "name": "_1c_353A1_taLillKlippen",
+   "group": 7,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 69,
+   "name": "_1c_030A1_tittaLabbas",
+   "group": 8,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_030A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 70,
+   "name": "_1c_354A1_tittaLabbas",
+   "group": 8,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 71,
+   "name": "_1c_031A1_talaLabbas",
+   "group": 8,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "LABBAS_1c_031A1Say1_NaMenSeRonja"
+   ],
+   "alts": [
+    {
+     "alt": 35,
+     "sound": "RONJA_1c_031A1Alt1_LabbasKan",
+     "next": "_1c_031A2_talaLabbas"
+    },
+    {
+     "alt": 36,
+     "sound": "RONJA_1c_031A1Alt2_BerattaOm",
+     "next": "_1c_031B1_talaLabbas"
+    },
+    {
+     "alt": 37,
+     "sound": "RONJA_1c_031A1Alt3_KanDuInte",
+     "next": "_1c_031C1_talaLabbas"
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "name": "_1c_031A2_talaLabbas",
+   "group": 8,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LABBAS_1c_031A2Say1_VisstKanVi"
+   ],
+   "alts": []
+  },
+  {
+   "id": 73,
+   "name": "_1c_031B1_talaLabbas",
+   "group": 8,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LABBAS_1c_031B1Say1_GradvargarnaBor"
+   ],
+   "alts": []
+  },
+  {
+   "id": 74,
+   "name": "_1c_031C1_talaLabbas",
+   "group": 8,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LABBAS_1c_031C1Say1_InteIdagRonja"
+   ],
+   "alts": []
+  },
+  {
+   "id": 75,
+   "name": "_1c_032A1_taLabbas",
+   "group": 8,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_032A1Say1_LabbasArAlldeles"
+   ],
+   "alts": []
+  },
+  {
+   "id": 76,
+   "name": "_1c_355A1_taLabbas",
+   "group": 8,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 77,
+   "name": "_1c_033A1_MattisSuck",
+   "group": 8,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_1c_033A1Say1_MattisSuck"
+   ],
+   "alts": []
+  },
+  {
+   "id": 78,
+   "name": "_1c_034A1_tittaMattis",
+   "group": 9,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_034A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 79,
+   "name": "_1c_356A1_tittaMattis",
+   "group": 9,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 80,
+   "name": "_1c_035A1_talaMattis",
+   "group": 9,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "MATTIS_1c_035A1Say1_RonjaMi"
+   ],
+   "alts": [
+    {
+     "alt": 38,
+     "sound": "RONJA_1c_035A1Alt1_VadArDet",
+     "next": "_1c_035A2_talaMattis"
+    },
+    {
+     "alt": 39,
+     "sound": "RONJA_1c_035A1Alt2_BerattaOm",
+     "next": "_1c_035B1_talaMattis"
+    },
+    {
+     "alt": 40,
+     "sound": "RONJA_1c_035A1Alt3_DomKallar",
+     "next": "_1c_035C1_talaMattis"
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "name": "_1c_035A2_talaMattis",
+   "group": 9,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1c_035A2Say1_DetArMycket",
+    "MATTIS_1c_035A2Say1_DetLaterDu"
+   ],
+   "alts": [
+    {
+     "alt": 41,
+     "sound": "RONJA_1c_035A2Alt1_BlirFolkInte",
+     "next": "_1c_035A3_talaMattis"
+    },
+    {
+     "alt": 42,
+     "sound": "RONJA_1c_035A2Alt2_MenVarforAr",
+     "next": "_1c_035A4_talaMattis"
+    },
+    {
+     "alt": 43,
+     "sound": "RONJA_1a_013A2Alt4_JagMaste",
+     "next": "_1c_035A5_talaMattis"
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "name": "_1c_035A3_talaMattis",
+   "group": 9,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1c_035A3Say1_SkalleFniss",
+    "SKALLEPER_1c_035A3Say1_ArgaSaDi",
+    "MATTIS_1c_035A3Say1_NuTigerDu",
+    "MATTIS_1c_035A3Say2_DuMasteForsta",
+    "RONJA_1c_035A3Say1_SkaJagAldrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 83,
+   "name": "_1c_035A4_talaMattis",
+   "group": 9,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_1c_035A4Say1_DuForstar",
+    "SKALLEPER_1c_035A4Say1_JajaMensan",
+    "MATTIS_1c_035A4Say2_JustDet",
+    "SKALLEPER_1c_035A4Say2_DuHarGott",
+    "MATTIS_1c_035A4Say3_OmDuInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 84,
+   "name": "_1c_035A5_talaMattis",
+   "group": 9,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_1c_035A5Say1_GorSaDu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 85,
+   "name": "_1c_035B1_talaMattis",
+   "group": 9,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_1c_035B1Say1_JagSkaBeratta"
+   ],
+   "alts": []
+  },
+  {
+   "id": 86,
+   "name": "_1c_035C1_talaMattis",
+   "group": 9,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_1c_035C1Say1_TryggSomRaven",
+    "MATTIS_1c_033A1Say1_MattisSuck"
+   ],
+   "alts": []
+  },
+  {
+   "id": 87,
+   "name": "_1c_036A1_taMattis",
+   "group": 9,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_036A1Say1_VarInteLessen",
+    "MATTIS_1c_036A1Say1_DetKanBli",
+    "MATTIS_1c_033A1Say1_MattisSuck"
+   ],
+   "alts": []
+  },
+  {
+   "id": 88,
+   "name": "_1c_037A1_taMattis",
+   "group": 9,
+   "verb": "hand",
+   "minUse": 2,
+   "next": null,
+   "says": [
+    "RONJA_1c_037A1Say1_NejMattisAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 89,
+   "name": "_1c_357A1_taMattis",
+   "group": 9,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 90,
+   "name": "_1c_038A1_tittaSkallePer",
+   "group": 10,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_011A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 91,
+   "name": "_1c_358A1_tittaSkallePer",
+   "group": 10,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 92,
+   "name": "_1c_039A1_talaSkallePer",
+   "group": 10,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "SKALLEPER_1c_039A1Say1_RonjaDuMin"
+   ],
+   "alts": [
+    {
+     "alt": 44,
+     "sound": "RONJA_1c_039A1Alt1_KanViInte",
+     "next": "_1c_039A2_talaSkallePer"
+    },
+    {
+     "alt": 45,
+     "sound": "RONJA_1c_039A1Alt1_ArDetInte",
+     "next": "_1c_039B1_talaSkallePer"
+    },
+    {
+     "alt": 46,
+     "sound": "RONJA_1c_039A1Alt1_HarDuGatt",
+     "next": "_1c_039C1_talaSkallePer"
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "name": "_1c_039A2_talaSkallePer",
+   "group": 10,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1c_039A2Say1_SpelaTarning"
+   ],
+   "alts": []
+  },
+  {
+   "id": 94,
+   "name": "_1c_039B1_talaSkallePer",
+   "group": 10,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1c_039B1Say1_VisstArDet",
+    "SKALLEPER_1c_039B1Say2_DarNere"
+   ],
+   "alts": []
+  },
+  {
+   "id": 95,
+   "name": "_1c_039C1_talaSkallePer",
+   "group": 10,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1c_039C1Say1_Ahh",
+    "MATTIS_1c_039C1Say1_MattisSkratt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 96,
+   "name": "_1c_040A1_taSkallePer",
+   "group": 10,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_040A1Say1_DetGarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 97,
+   "name": "_1c_359A1_taSkallePer",
+   "group": 10,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 98,
+   "name": "_1c_041A1_RovareAter",
+   "group": 10,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 99,
+   "name": "_1c_042A1_tittaSturkas",
+   "group": 11,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_042A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 100,
+   "name": "_1c_360A1_tittaSturkas",
+   "group": 11,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 101,
+   "name": "_1c_043A1_talaSturkas",
+   "group": 11,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "STURKAS_1c_043A1Say1_VadVillDu"
+   ],
+   "alts": [
+    {
+     "alt": 47,
+     "sound": "RONJA_1c_043A1Alt1_LovisVill",
+     "next": "_1c_043A2_talaSturkas"
+    },
+    {
+     "alt": 48,
+     "sound": "RONJA_1c_043A1Alt2_KanNiInte",
+     "next": "_1c_043B1_talaSturkas"
+    }
+   ]
+  },
+  {
+   "id": 102,
+   "name": "_1c_043A2_talaSturkas",
+   "group": 11,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "STURKAS_1c_043A2Say1_AldrigILivet"
+   ],
+   "alts": []
+  },
+  {
+   "id": 103,
+   "name": "_1c_043B1_talaSturkas",
+   "group": 11,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "STURKAS_1c_043B1Say1_VarforDa"
+   ],
+   "alts": [
+    {
+     "alt": 49,
+     "sound": "RONJA_1c_043B1Alt1_JagVillVisa",
+     "next": "_1c_043B2_talaSturkas"
+    },
+    {
+     "alt": 50,
+     "sound": "RONJA_1c_043B1Alt2_Snalla",
+     "next": "_1c_043B3_talaSturkas"
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "name": "_1c_043B2_talaSturkas",
+   "group": 11,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "STURKAS_1c_043B2Say1_JagKanInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 105,
+   "name": "_1c_043B3_talaSturkas",
+   "group": 11,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "STURKAS_1c_043B3Say1_EnAnnanGang"
+   ],
+   "alts": []
+  },
+  {
+   "id": 106,
+   "name": "_1c_044A1_taSturkas",
+   "group": 11,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 107,
+   "name": "_1c_045A1_taSturkas",
+   "group": 11,
+   "verb": "hand",
+   "minUse": 2,
+   "next": null,
+   "says": [
+    "RONJA_1c_045A1Say1_SturkasAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 108,
+   "name": "_1c_361A1_taSturkas",
+   "group": 11,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 109,
+   "name": "_1c_046A1_tittaTjegge",
+   "group": 12,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_046A1Say1_HanHeterTjegge"
+   ],
+   "alts": []
+  },
+  {
+   "id": 110,
+   "name": "_1c_362A1_tittaTjegge",
+   "group": 12,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 111,
+   "name": "_1c_047A1_talaTjegge",
+   "group": 12,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "TJEGGE_1c_047A1Say1_NaMenSeRonja"
+   ],
+   "alts": [
+    {
+     "alt": 51,
+     "sound": "RONJA_1c_047A1Alt1_LovisVillAtt",
+     "next": "_1c_047A2_talaTjegge"
+    },
+    {
+     "alt": 52,
+     "sound": "RONJA_1c_047A1Alt2_LovisVillPrata",
+     "next": "_1c_047B1_talaTjegge"
+    }
+   ]
+  },
+  {
+   "id": 112,
+   "name": "_1c_047A2_talaTjegge",
+   "group": 12,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "TJEGGE_1c_047A2Say1_AldrigDetAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 113,
+   "name": "_1c_047B1_talaTjegge",
+   "group": 12,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "TJEGGE_1c_047B1Say1_VarforDa"
+   ],
+   "alts": [
+    {
+     "alt": 53,
+     "sound": "RONJA_1c_047B1Alt1_JagVetInte",
+     "next": "_1c_047B2_talaTjegge"
+    },
+    {
+     "alt": 54,
+     "sound": "RONJA_1c_047B1Alt2_HonVill",
+     "next": "_1c_047B3_talaTjegge"
+    }
+   ]
+  },
+  {
+   "id": 114,
+   "name": "_1c_047B2_talaTjegge",
+   "group": 12,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "TJEGGE_1c_047B2Say1_DaKanDet"
+   ],
+   "alts": []
+  },
+  {
+   "id": 115,
+   "name": "_1c_047B3_talaTjegge",
+   "group": 12,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "TJEGGE_1c_047B3Say1_HalsaHenne"
+   ],
+   "alts": []
+  },
+  {
+   "id": 116,
+   "name": "_1c_048A1_taTjegge",
+   "group": 12,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_048A1Say1_JagOrkarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 117,
+   "name": "_1c_363A1_taTjegge",
+   "group": 12,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 118,
+   "name": "_1c_049A1_tittaLabbas",
+   "group": 13,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_049A1Say1_HanHeterLabbas"
+   ],
+   "alts": []
+  },
+  {
+   "id": 119,
+   "name": "_1c_364A1_tittaLabbas",
+   "group": 13,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 120,
+   "name": "_1c_050A1_talaLabbas",
+   "group": 13,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "LABBAS_1c_050A1Say1_NaMenSeRonja"
+   ],
+   "alts": [
+    {
+     "alt": 55,
+     "sound": "RONJA_1c_050A1Alt1_LovisBehover",
+     "next": "_1c_050A2_talaLabbas"
+    },
+    {
+     "alt": 56,
+     "sound": "RONJA_1c_043A1Alt1_LovisVill",
+     "next": "_1c_050B1_talaLabbas"
+    }
+   ]
+  },
+  {
+   "id": 121,
+   "name": "_1c_050A2_talaLabbas",
+   "group": 13,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LABBAS_1c_050A2Say1_BeLillKlippenOch"
+   ],
+   "alts": [
+    {
+     "alt": 57,
+     "sound": "RONJA_1c_050A2Alt1_MenHonBehover",
+     "next": "_1c_050A3_talaLabbas"
+    },
+    {
+     "alt": 58,
+     "sound": "RONJA_1c_043B1Alt2_Snalla",
+     "next": "_1c_050A4_talaLabbas"
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "name": "_1c_050A3_talaLabbas",
+   "group": 13,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LABBAS_1c_050A3Say1_DetArKalltUte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 123,
+   "name": "_1c_050A4_talaLabbas",
+   "group": 13,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LABBAS_1c_050A4Say1_TaLillKlippen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 124,
+   "name": "_1c_050B1_talaLabbas",
+   "group": 13,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LABBAS_1c_050B1Say1_DetArSkadligt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 125,
+   "name": "_1c_051A1_taLabbas",
+   "group": 13,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_051A1Say1_RovarnaAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 126,
+   "name": "_1c_365A1_taLabbas",
+   "group": 13,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 127,
+   "name": "_1c_052A1_tittaFnoske",
+   "group": 14,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_052A1Say1_DetArFnoske"
+   ],
+   "alts": []
+  },
+  {
+   "id": 128,
+   "name": "_1c_053A1_talaFnoske",
+   "group": 14,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_053A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 129,
+   "name": "_1c_366A1_talaFnoske",
+   "group": 14,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 130,
+   "name": "_1c_054A1_taFnoske",
+   "group": 14,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 131,
+   "name": "_1c_055A1_SkrammaRovare",
+   "group": 14,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "STURKAS_1c_055A1Say1_RovarnaSkriker"
+   ],
+   "alts": []
+  },
+  {
+   "id": 132,
+   "name": "_1d_056A1_tittaFlinta",
+   "group": 15,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_056A1Say1_DetDarArFlinta"
+   ],
+   "alts": []
+  },
+  {
+   "id": 133,
+   "name": "_1d_057A1_talaFlinta",
+   "group": 15,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_057A1Say1_StenarPratar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 134,
+   "name": "_1d_367A1_talaFlinta",
+   "group": 15,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 135,
+   "name": "_1d_058A1_taFlinta",
+   "group": 15,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 136,
+   "name": "_1d_059A1_tittaEldstal",
+   "group": 16,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_059A1Say1_DetDarArEtt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 137,
+   "name": "_1d_060A1_talaEldstal",
+   "group": 16,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_060A1Say1_EldstalPratar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 138,
+   "name": "_1d_368A1_talaEldstal",
+   "group": 16,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 139,
+   "name": "_1d_061A1_taEldstal",
+   "group": 16,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 140,
+   "name": "_1d_062A1_tittaRattfalla",
+   "group": 17,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_062A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 141,
+   "name": "_1d_063A1_talaRattfalla",
+   "group": 17,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_063A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 142,
+   "name": "_1d_369A1_talaRattfalla",
+   "group": 17,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 143,
+   "name": "_1d_064A1_taRattfalla",
+   "group": 17,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 144,
+   "name": "_1d_065A1_placeraTomRattfalla",
+   "group": 17,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_1d_065A1Say1_EnRatta"
+   ],
+   "alts": []
+  },
+  {
+   "id": 145,
+   "name": "_1d_066A1_placeraOstRattfalla",
+   "group": 17,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 146,
+   "name": "_1d_067A1_tittaRatta",
+   "group": 18,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_067A1Say1_EnRatta"
+   ],
+   "alts": []
+  },
+  {
+   "id": 147,
+   "name": "_1d_068A1_talaRatta",
+   "group": 18,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_068A1Say1_VadGorDuHarLillaRatta",
+    "RATTA_1d_068A1Say1_VadGorDuHarLillaRovardatter"
+   ],
+   "alts": []
+  },
+  {
+   "id": 148,
+   "name": "_1d_069A1_talaRatta",
+   "group": 18,
+   "verb": "mouth",
+   "minUse": 2,
+   "next": null,
+   "says": [
+    "RONJA_1d_069A1Say1_RattorKanBara"
+   ],
+   "alts": []
+  },
+  {
+   "id": 149,
+   "name": "_1d_370A1_talaRatta",
+   "group": 18,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 150,
+   "name": "_1d_070A1_taRatta",
+   "group": 18,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_070A1Say1_SnallRatta"
+   ],
+   "alts": []
+  },
+  {
+   "id": 151,
+   "name": "_1d_071A1_tittaRattfallan",
+   "group": 19,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_071A1Say1_RattfallanArTom"
+   ],
+   "alts": []
+  },
+  {
+   "id": 152,
+   "name": "_1d_072A1_talaRattfallan",
+   "group": 19,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_072A1Say1_HarFinnsInget"
+   ],
+   "alts": []
+  },
+  {
+   "id": 153,
+   "name": "_1d_371A1_talaRattfalla",
+   "group": 19,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 154,
+   "name": "_1d_073A1_taRattfallan",
+   "group": 19,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_073A1Say1_Asch"
+   ],
+   "alts": []
+  },
+  {
+   "id": 155,
+   "name": "_1d_074A1_tittaKniv",
+   "group": 20,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_074A1Say1_DetArEn"
+   ],
+   "alts": []
+  },
+  {
+   "id": 156,
+   "name": "_1d_372A1_tittaKniv",
+   "group": 20,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 157,
+   "name": "_1d_075A1_talaKniv",
+   "group": 20,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_075A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 158,
+   "name": "_1d_373A1_talaKniv",
+   "group": 20,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 159,
+   "name": "_1d_076A1_taKniv",
+   "group": 20,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_076A1Say1_Aj",
+    "LOVIS_1d_076A1Say1_VantaLite",
+    "LOVIS_1d_076A1Say2_SaRonjaMitt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 160,
+   "name": "_1d_077A1_lamnarFacklorna",
+   "group": 20,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1d_077A1Say1_RonjaMittHjartas"
+   ],
+   "alts": []
+  },
+  {
+   "id": 161,
+   "name": "_1d_078A1_tittaFacklan",
+   "group": 21,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_078A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 162,
+   "name": "_1d_079A1_talaFacklan",
+   "group": 21,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_079A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 163,
+   "name": "_1d_374A1_talaFacklan",
+   "group": 21,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 164,
+   "name": "_1d_080A1_taFacklan",
+   "group": 21,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 165,
+   "name": "_6_081A1_tandKallarenA",
+   "group": 21,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 166,
+   "name": "_6_601A1_upplystKallare",
+   "group": 21,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 167,
+   "name": "_7_082A1_tandFangelseA",
+   "group": 21,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 168,
+   "name": "_7_602A1_upplystFangelse",
+   "group": 21,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 169,
+   "name": "_2a_084A1_tittaStege",
+   "group": 22,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_084A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 170,
+   "name": "_2a_085A1_talaStege",
+   "group": 22,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_2a_085A1Say1_DetFinnsIngen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 171,
+   "name": "_2a_376A1_talaStege",
+   "group": 22,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 172,
+   "name": "_2a_086A1_taStege",
+   "group": 22,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 173,
+   "name": "_2a_087A1_tittaLillKlippen",
+   "group": 23,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_2a_087A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 174,
+   "name": "_2a_377A1_tittaLillKlippen",
+   "group": 23,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 175,
+   "name": "_2a_088A1_talaLillKlippen",
+   "group": 23,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_2a_088A1Say1_NaMenSeRonja"
+   ],
+   "alts": [
+    {
+     "alt": 59,
+     "sound": "RONJA_1c_050A1Alt1_LovisBehover",
+     "next": "_2a_088A2_talaLillKlippen"
+    },
+    {
+     "alt": 60,
+     "sound": "RONJA_1c_043A1Alt1_LovisVill",
+     "next": "_2a_088B1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 176,
+   "name": "_2a_088A2_talaLillKlippen",
+   "group": 23,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_2a_088A2Say1_JagHinnerInte"
+   ],
+   "alts": [
+    {
+     "alt": 61,
+     "sound": "RONJA_1c_050A2Alt1_MenHonBehover",
+     "next": "_2a_088A3_talaLillKlippen"
+    },
+    {
+     "alt": 62,
+     "sound": "RONJA_1c_043B1Alt2_Snalla",
+     "next": "_2a_088A4_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 177,
+   "name": "_2a_088A3_talaLillKlippen",
+   "group": 23,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_2a_088A3Say1_DuFarForsoka"
+   ],
+   "alts": []
+  },
+  {
+   "id": 178,
+   "name": "_2a_088A4_talaLillKlippen",
+   "group": 23,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_2a_088A4Say1_KanInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 179,
+   "name": "_2a_088B1_talaLillKlippen",
+   "group": 23,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_2a_088B1Say1_Aldrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 180,
+   "name": "_2a_089A1_taLillKlippen",
+   "group": 23,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_2a_089A1Say1_HanAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 181,
+   "name": "_2a_378A1_taLillKlippen",
+   "group": 23,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 182,
+   "name": "_2a_090A1_tittaFjosok",
+   "group": 24,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_2a_090A1Say1_FjosokGer"
+   ],
+   "alts": []
+  },
+  {
+   "id": 183,
+   "name": "_2a_379A1_tittaFjosok",
+   "group": 24,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 184,
+   "name": "_2a_091A1_talaFjosok",
+   "group": 24,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "FJOSOK_2a_091A1Say1_NaMenSeRonja"
+   ],
+   "alts": [
+    {
+     "alt": 63,
+     "sound": "RONJA_1c_043A1Alt1_LovisVill",
+     "next": "_2a_091A2_talaFjosok"
+    },
+    {
+     "alt": 64,
+     "sound": "RONJA_1c_050A1Alt1_LovisBehover",
+     "next": "_2a_091B1_talaFjosok"
+    }
+   ]
+  },
+  {
+   "id": 185,
+   "name": "_2a_091A2_talaFjosok",
+   "group": 24,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "FJOSOK_2a_091A2Say1_NuAldrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 186,
+   "name": "_2a_091B1_talaFjosok",
+   "group": 24,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "FJOSOK_2a_091B1Say1_JagOchLillKlippen"
+   ],
+   "alts": [
+    {
+     "alt": 65,
+     "sound": "RONJA_1c_050A2Alt1_MenHonBehover",
+     "next": "_2a_091B2_talaFjosok"
+    },
+    {
+     "alt": 66,
+     "sound": "RONJA_1c_043B1Alt2_Snalla",
+     "next": "_2a_091B3_talaFjosok"
+    }
+   ]
+  },
+  {
+   "id": 187,
+   "name": "_2a_091B2_talaFjosok",
+   "group": 24,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "FJOSOK_2a_091B2Say1_JagHinnerInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 188,
+   "name": "_2a_091B3_talaFjosok",
+   "group": 24,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "FJOSOK_2a_091B3Say1_JagArLedsen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 189,
+   "name": "_2a_092A1_taFjosok",
+   "group": 24,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_2a_092A1Say1_HanArAlldeles"
+   ],
+   "alts": []
+  },
+  {
+   "id": 190,
+   "name": "_2a_380A1_taFjosok",
+   "group": 24,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 191,
+   "name": "_2a_093A1_tittaHast",
+   "group": 25,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_2a_093A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 192,
+   "name": "_2a_381A1_tittaHast",
+   "group": 25,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 193,
+   "name": "_2a_094A1_talaHast",
+   "group": 25,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_2a_094A1Say1_DuArSaFinTjalfe",
+    "DJUR2_2a_094A1Say1_HastGnagg"
+   ],
+   "alts": []
+  },
+  {
+   "id": 194,
+   "name": "_2a_095A1_taHast",
+   "group": 25,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_2a_095A1Say1_FinHast"
+   ],
+   "alts": []
+  },
+  {
+   "id": 195,
+   "name": "_2a_382A1_taHast",
+   "group": 25,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 196,
+   "name": "_2a_096A1_geMorot",
+   "group": 25,
+   "verb": "script",
+   "minUse": 0,
+   "next": "_2a_633A1_LillKlippenFjosokGar",
+   "says": [
+    "RONJA_2a_096A1Say1_JagKanMata",
+    "LILLKLIPPEN_2a_096A1Say1_KommerDuMed"
+   ],
+   "alts": []
+  },
+  {
+   "id": 197,
+   "name": "_2a_097A1_geFel",
+   "group": 25,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "DJUR2_2a_097A1Say1_IrroHast",
+    "LILLKLIPPEN_2a_097A1Say1_DenTyckerInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 198,
+   "name": "_2a_098A1_geLillKlippen",
+   "group": 25,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_2a_098A1Say1_NejTack"
+   ],
+   "alts": []
+  },
+  {
+   "id": 199,
+   "name": "_2a_099A1_geFjosok",
+   "group": 25,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "FJOSOK_2a_099A1Say1_NejInteNu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 200,
+   "name": "_2a_613A1_hastarna",
+   "group": 25,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 201,
+   "name": "_3_100A1_moteBirk",
+   "group": 25,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_3_100A1Say1_VemArDu",
+    "BIRK_3_100A1Say1_JagArBirk",
+    "RONJA_3_100A1Say2_VilkaVi",
+    "BIRK_3_100A1Say2_BorkaUndis",
+    "RONJA_3_100A1Say3_MenarDu",
+    "BIRK_3_100A1Say3_DetHarAr",
+    "RONJA_3_100A1Say4_KommerDu",
+    "BIRK_3_100A1Say4_GorEfterDet",
+    "BIRK_3_100A1Say5_DuArInte",
+    "RONJA_3_100A1Say5_VantaBara",
+    "BIRK_3_100A1Say1_BirkSkrik"
+   ],
+   "alts": []
+  },
+  {
+   "id": 202,
+   "name": "_3_101A1_gapetBirk",
+   "group": 25,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 203,
+   "name": "_3_102A1_tittaBirk",
+   "group": 26,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_3_102A1Say1_JagBordeNog"
+   ],
+   "alts": []
+  },
+  {
+   "id": 204,
+   "name": "_3_103A1_talaBirk",
+   "group": 26,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_3_103A1Say1_HallDejKvar",
+    "BIRK_3_103A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 205,
+   "name": "_3_104A1_taBirk",
+   "group": 26,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_3_104A1Say1_JagNarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 206,
+   "name": "_3_105A1_felRaddaBirk",
+   "group": 26,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_3_105A1Say1_JagKommerAtt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 207,
+   "name": "_3_106A1_raddaBirk",
+   "group": 26,
+   "verb": "script",
+   "minUse": 0,
+   "next": "_1c_033A1_MattisSuck",
+   "says": [
+    "RONJA_3_106A1Say1_KrangPaDej",
+    "BIRK_3_106A1Say1_EfterDetHar",
+    "RONJA_3_106A1Say2_DuArSaLagom",
+    "BIRK_3_106A1Say2_DuRovardotter",
+    "BERATTAREN_3_106A1Say1_MattisBlevArg",
+    "BORKA_3_106A1Say1_HorNuPaMig",
+    "MATTIS_3_106A1Say1_KanSaVara",
+    "BORKA_3_106A1Say2_DetVarEtt",
+    "MATTIS_3_106A1Say2_Hrrm"
+   ],
+   "alts": []
+  },
+  {
+   "id": 208,
+   "name": "_4_107A1_tittaNyckel",
+   "group": 27,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_4_107A1Say1_DetArEn"
+   ],
+   "alts": []
+  },
+  {
+   "id": 209,
+   "name": "_4_108A1_talaNyckel",
+   "group": 27,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_4_108A1Say1_NycklarPratar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 210,
+   "name": "_4_383A1_talaNyckel",
+   "group": 27,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 211,
+   "name": "_4_109A1_taNyckel",
+   "group": 27,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 212,
+   "name": "_6_110A1_tittaOst",
+   "group": 28,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_6_108A1Say1_DetArEnOst"
+   ],
+   "alts": []
+  },
+  {
+   "id": 213,
+   "name": "_6_111A1_talaOst",
+   "group": 28,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_6_111A1Say1_OstarSager"
+   ],
+   "alts": []
+  },
+  {
+   "id": 214,
+   "name": "_6_384A1_talaOst",
+   "group": 28,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 215,
+   "name": "_6_112A1_taOst",
+   "group": 28,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 216,
+   "name": "_6_113A1_tittaMorot",
+   "group": 29,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_6_113A1Say1_DetArEnOst"
+   ],
+   "alts": []
+  },
+  {
+   "id": 217,
+   "name": "_6_114A1_talaMorot",
+   "group": 29,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_6_114A1Say1_DetDarArMorotter"
+   ],
+   "alts": []
+  },
+  {
+   "id": 218,
+   "name": "_6_115A1_talaMorot",
+   "group": 29,
+   "verb": "mouth",
+   "minUse": 2,
+   "next": null,
+   "says": [
+    "RONJA_6_115A1Say1_DetFinnsIngen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 219,
+   "name": "_6_385A1_talaMorot",
+   "group": 29,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 220,
+   "name": "_6_116A1_taMorot",
+   "group": 29,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 221,
+   "name": "_6_117A1_tittaRovor",
+   "group": 30,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_6_117A1Say1_DetDarArRovor"
+   ],
+   "alts": []
+  },
+  {
+   "id": 222,
+   "name": "_6_118A1_talaRovor",
+   "group": 30,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_6_118A1Say1_RovorPratar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 223,
+   "name": "_6_386A1_talaRovor",
+   "group": 30,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 224,
+   "name": "_6_119A1_taRovor",
+   "group": 30,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 225,
+   "name": "_6_121A1_tittaHylla",
+   "group": 31,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_6_121A1Say1_DetBlaser"
+   ],
+   "alts": []
+  },
+  {
+   "id": 226,
+   "name": "_6_122A1_talaHylla",
+   "group": 31,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_6_122A1Say1_HallaArDet",
+    "BIRK_6_122A1Say1_RonjaRonja"
+   ],
+   "alts": []
+  },
+  {
+   "id": 227,
+   "name": "_6_123A1_taHylla",
+   "group": 31,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 228,
+   "name": "_6_124A1_moteSkallePer",
+   "group": 31,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_6_124A1Say1_RonjaSomJag"
+   ],
+   "alts": [
+    {
+     "alt": 67,
+     "sound": "RONJA_6_124A1Alt1_AktarMig",
+     "next": "_6_124A2_moteSkallePer"
+    },
+    {
+     "alt": 68,
+     "sound": "RONJA_6_124A1Alt2_ManKanInte",
+     "next": "_6_124B1_moteSkallePer"
+    },
+    {
+     "alt": 69,
+     "sound": "RONJA_6_124A1Alt3_InteSkaDu",
+     "next": "_6_124C1_moteSkallePer"
+    }
+   ]
+  },
+  {
+   "id": 229,
+   "name": "_6_124A2_moteSkallePer",
+   "group": 31,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_6_124A2Say1_DetArBra"
+   ],
+   "alts": []
+  },
+  {
+   "id": 230,
+   "name": "_6_124B1_moteSkallePer",
+   "group": 31,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_6_124B1Say1_NaNaMan"
+   ],
+   "alts": [
+    {
+     "alt": 70,
+     "sound": "RONJA_6_124B1Alt1_NjaInteJust",
+     "next": "_6_124B2_moteSkallePer"
+    },
+    {
+     "alt": 71,
+     "sound": "RONJA_6_124B1Alt2_SpelaTarning",
+     "next": "_6_124B3_moteSkallePer"
+    }
+   ]
+  },
+  {
+   "id": 231,
+   "name": "_6_124B2_moteSkallePer",
+   "group": 31,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_6_124B2Say1_DetVarSynd"
+   ],
+   "alts": []
+  },
+  {
+   "id": 232,
+   "name": "_6_124B3_moteSkallePer",
+   "group": 31,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 233,
+   "name": "_6_124C1_moteSkallePer",
+   "group": 31,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_6_124C1Say1_HanaInteEn"
+   ],
+   "alts": []
+  },
+  {
+   "id": 234,
+   "name": "_6_125A1_moteSkallePer",
+   "group": 31,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_6_125A1Say1_MenRonja"
+   ],
+   "alts": [
+    {
+     "alt": 72,
+     "sound": "RONJA_6_124A1Alt1_AktarMig",
+     "next": "_6_125A2_moteSkallePer"
+    },
+    {
+     "alt": 73,
+     "sound": "RONJA_6_124A1Alt2_ManKanInte",
+     "next": "_6_125B1_moteSkallePer"
+    },
+    {
+     "alt": 74,
+     "sound": "RONJA_6_124A1Alt3_InteSkaDu",
+     "next": "_6_125C1_moteSkallePer"
+    }
+   ]
+  },
+  {
+   "id": 235,
+   "name": "_6_125A2_moteSkallePer",
+   "group": 31,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_6_124A2Say1_DetArBra"
+   ],
+   "alts": []
+  },
+  {
+   "id": 236,
+   "name": "_6_125B1_moteSkallePer",
+   "group": 31,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_6_124B1Say1_NaNaMan"
+   ],
+   "alts": [
+    {
+     "alt": 75,
+     "sound": "RONJA_6_124B1Alt1_NjaInteJust",
+     "next": "_6_125B2_moteSkallePer"
+    },
+    {
+     "alt": 76,
+     "sound": "RONJA_6_124B1Alt2_SpelaTarning",
+     "next": "_6_125B3_moteSkallePer"
+    }
+   ]
+  },
+  {
+   "id": 237,
+   "name": "_6_125B2_moteSkallePer",
+   "group": 31,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_6_124B2Say1_DetVarSynd"
+   ],
+   "alts": []
+  },
+  {
+   "id": 238,
+   "name": "_6_125B3_moteSkallePer",
+   "group": 31,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 239,
+   "name": "_6_125C1_moteSkallePer",
+   "group": 31,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_6_124C1Say1_HanaInteEn"
+   ],
+   "alts": []
+  },
+  {
+   "id": 240,
+   "name": "_6_126A1_tittaBrodkaka",
+   "group": 32,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_6_126A1Say1_DetArEn"
+   ],
+   "alts": []
+  },
+  {
+   "id": 241,
+   "name": "_6_127A1_tittaBrodkaka",
+   "group": 32,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_6_127A1Say1_DenSvararInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 242,
+   "name": "_6_387A1_talaBrod",
+   "group": 32,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 243,
+   "name": "_6_128A1_taBrodkaka",
+   "group": 32,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 244,
+   "name": "_7_130A1_tittaStenhog",
+   "group": 33,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_7_130A1Say1_DetVerkar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 245,
+   "name": "_7_131A1_talaStenhog",
+   "group": 33,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_7_131A1Say1_ArDetNagon",
+    "BIRK_7_131A1Say1_Ronja"
+   ],
+   "alts": []
+  },
+  {
+   "id": 246,
+   "name": "_7_132A1_taStenhog",
+   "group": 33,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_7_132A1Say1_Ronja",
+    "RONJA_7_132A1Say1_BirkABirk",
+    "RONJA_7_132A1Say1_slapaStenar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 247,
+   "name": "_7_133A1_tittaBirk",
+   "group": 34,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_7_133A1Say1_DetArMin"
+   ],
+   "alts": []
+  },
+  {
+   "id": 248,
+   "name": "_7_134A1_talaBirk",
+   "group": 34,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_7_134A1Say1_MinSyster"
+   ],
+   "alts": [
+    {
+     "alt": 77,
+     "sound": "RONJA_7_134A1Alt1_ViKommer",
+     "next": "_7_134A2_talaBirk"
+    },
+    {
+     "alt": 78,
+     "sound": "RONJA_7_134A1Alt2_VadHarDu",
+     "next": "_7_134B1_talaBirk"
+    },
+    {
+     "alt": 79,
+     "sound": "RONJA_7_134A1Alt3_ArDetSant",
+     "next": "_7_134C1_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 249,
+   "name": "_7_134A2_talaBirk",
+   "group": 34,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_7_134A2Say1_SaArDet"
+   ],
+   "alts": [
+    {
+     "alt": 80,
+     "sound": "RONJA_7_134A2Alt1_JagHarVantat",
+     "next": "_7_134A3_talaBirk"
+    },
+    {
+     "alt": 81,
+     "sound": "RONJA_7_134A1Alt2_VadHarDu",
+     "next": "_7_134B1_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 250,
+   "name": "_7_134A3_talaBirk",
+   "group": 34,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_7_134A3Say1_DuArDej"
+   ],
+   "alts": []
+  },
+  {
+   "id": 251,
+   "name": "_7_134B1_talaBirk",
+   "group": 34,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_7_134B1Say1_ViArFattiga"
+   ],
+   "alts": []
+  },
+  {
+   "id": 252,
+   "name": "_7_134C1_talaBirk",
+   "group": 34,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_7_134A1Say1_MinSyster"
+   ],
+   "alts": [
+    {
+     "alt": 82,
+     "sound": "RONJA_7_134A2Alt1_JagHarVantat",
+     "next": "_7_134A3_talaBirk"
+    },
+    {
+     "alt": 83,
+     "sound": "RONJA_7_134A1Alt2_VadHarDu",
+     "next": "_7_134B1_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 253,
+   "name": "_7_135A1_taBirk",
+   "group": 34,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_7_135A1Say1_AktaDej",
+    "BIRK_7_135A1Say1_TackNuAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 254,
+   "name": "_7_388A1_taBirk",
+   "group": 34,
+   "verb": "hand",
+   "minUse": 2,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 255,
+   "name": "_7_389A1_taBirk",
+   "group": 34,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 256,
+   "name": "_7_136A1_halBirk",
+   "group": 34,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_7_136A1Say1_JagHar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 257,
+   "name": "_7_136A1_tyst",
+   "group": 34,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 258,
+   "name": "_7_137A1_geBirkBrod",
+   "group": 34,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_7_137A1Say1_AtOmDu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 259,
+   "name": "_7_138A1_tomtHal",
+   "group": 34,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 260,
+   "name": "_7_139A1_RonjaBirk",
+   "group": 34,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_7_139A1Say1_TviForAtt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 261,
+   "name": "_8_140A1_LovisRovarna",
+   "group": 34,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 262,
+   "name": "_14_141A1_tittaVitmossa",
+   "group": 35,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_14_141A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 263,
+   "name": "_14_142A1_talaVitmossa",
+   "group": 35,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_14_142A1Say1_JagHoppas"
+   ],
+   "alts": []
+  },
+  {
+   "id": 264,
+   "name": "_14_390A1_talaMossa",
+   "group": 35,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 265,
+   "name": "_14_143A1_taVitmossa",
+   "group": 35,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 266,
+   "name": "_9a_144A1_tittaBirk",
+   "group": 36,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 267,
+   "name": "_9a_145A1_talaBirk",
+   "group": 36,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_145A1Say1_KanViInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 268,
+   "name": "_9a_146A1_taBirk",
+   "group": 36,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 269,
+   "name": "_9a_147A1_tittaBirk",
+   "group": 37,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 270,
+   "name": "_9a_148A1_talaBirk",
+   "group": 37,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_148A1Say1_TrorDuAtt",
+    "RONJA_9a_148A1Say1_MattisBrukadeSaja"
+   ],
+   "alts": []
+  },
+  {
+   "id": 271,
+   "name": "_9a_149A1_taBirk",
+   "group": 37,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 272,
+   "name": "_9a_150A1_tittaBirk",
+   "group": 38,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 273,
+   "name": "_9a_151A1_talaBirk",
+   "group": 38,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_151A1Say1_ViMasteHa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 274,
+   "name": "_9a_152A1_taBirk",
+   "group": 38,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 275,
+   "name": "_9a_153A1_tittaBirk",
+   "group": 39,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 276,
+   "name": "_9a_154A1_talaBirk",
+   "group": 39,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_154A1Say1_DetFinnsGott"
+   ],
+   "alts": []
+  },
+  {
+   "id": 277,
+   "name": "_9a_155A1_taBirk",
+   "group": 39,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 278,
+   "name": "_13_156A1_tittaNat",
+   "group": 40,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_13_156A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 279,
+   "name": "_13_157A1_talaNat",
+   "group": 40,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_13_157A1Say1_ManKanInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 280,
+   "name": "_13_391A1_talaNat",
+   "group": 40,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 281,
+   "name": "_13_158A1_taNat",
+   "group": 40,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 282,
+   "name": "_13_159A1_kastaNat",
+   "group": 40,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 283,
+   "name": "_13_160A1_tittaFors",
+   "group": 41,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_13_160A1Say1_JagTrorAtt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 284,
+   "name": "_13_161A1_talaFors",
+   "group": 41,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_13_161A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 285,
+   "name": "_13_392A1_talaFors",
+   "group": 41,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 286,
+   "name": "_13_162A1_taFors",
+   "group": 41,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_13_162A1Say1_SostraMiAv"
+   ],
+   "alts": []
+  },
+  {
+   "id": 287,
+   "name": "_13_163A1_tittaFors",
+   "group": 42,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_13_163A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 288,
+   "name": "_13_164A1_talaFors",
+   "group": 42,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_13_161A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 289,
+   "name": "_13_393A1_talaFors",
+   "group": 42,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 290,
+   "name": "_13_165A1_taFors",
+   "group": 42,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 291,
+   "name": "_13_166A1_tittaBirk",
+   "group": 43,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 292,
+   "name": "_13_167A1_talaBirk",
+   "group": 43,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_145A1Say1_KanViInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 293,
+   "name": "_13_168A1_taBirk",
+   "group": 43,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 294,
+   "name": "_13_169A1_tittaBirk",
+   "group": 44,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 295,
+   "name": "_13_170A1_talaBirk",
+   "group": 44,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_148A1Say1_TrorDuAtt",
+    "RONJA_9a_148A1Say1_MattisBrukadeSaja"
+   ],
+   "alts": []
+  },
+  {
+   "id": 296,
+   "name": "_13_171A1_taBirk",
+   "group": 44,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 297,
+   "name": "_13_172A1_tittaBirk",
+   "group": 45,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 298,
+   "name": "_13_173A1_talaBirk",
+   "group": 45,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_154A1Say1_DetFinnsGott"
+   ],
+   "alts": []
+  },
+  {
+   "id": 299,
+   "name": "_13_174A1_taBirk",
+   "group": 45,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 300,
+   "name": "_13_175A1_tittaBirk",
+   "group": 46,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 301,
+   "name": "_13_176A1_talaBirk",
+   "group": 46,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_151A1Say1_ViMasteHa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 302,
+   "name": "_13_177A1_taBirk",
+   "group": 46,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 303,
+   "name": "_14_178A1_snubblaBirk",
+   "group": 46,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_14_178A1Say1_SeDejFor"
+   ],
+   "alts": []
+  },
+  {
+   "id": 304,
+   "name": "_14_179A1_tittaBirk",
+   "group": 47,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_14_179A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 305,
+   "name": "_14_180A1_talaBirk",
+   "group": 47,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_14_180A1Say1_VadVillDu"
+   ],
+   "alts": [
+    {
+     "alt": 84,
+     "sound": "RONJA_14_180A1Alt1_HurBrattomJag",
+     "next": "_14_180A2_talaBirk"
+    },
+    {
+     "alt": 85,
+     "sound": "RONJA_14_180A1Alt2_JagVillAtt",
+     "next": "_14_180B1_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 306,
+   "name": "_14_180A2_talaBirk",
+   "group": 47,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 307,
+   "name": "_14_180B1_talaBirk",
+   "group": 47,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_14_180B1Say1_DinaRavUngar",
+    "RONJA_14_180B1Say1_JagKannerAllt",
+    "BIRK_14_180B1Say2_DessutomArDet",
+    "RONJA_14_180B1Say2_JagDelarGarna"
+   ],
+   "alts": []
+  },
+  {
+   "id": 308,
+   "name": "_14_181A1_taBirk",
+   "group": 47,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_14_181A1Say1_NejJagVillInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 309,
+   "name": "_1c_183A1_RonjaOchSkallePer",
+   "group": 47,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 310,
+   "name": "_1c_184A1_tittaSkallePer",
+   "group": 48,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_011A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 311,
+   "name": "_1c_185A1_talaSkallePer",
+   "group": 48,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "SKALLEPER_1c_185A1Say1_VadJagAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 312,
+   "name": "_1c_186A1_taSkallePer",
+   "group": 48,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "SKALLEPER_1c_186A1Say1_DuArMitt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 313,
+   "name": "_14_187A1_motaBirk",
+   "group": 48,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_14_187A1Say1_JagFlyttarUt"
+   ],
+   "alts": [
+    {
+     "alt": 86,
+     "sound": "RONJA_14_187A1Alt1_JagVillBort",
+     "next": "_14_187A2_motaBirk"
+    },
+    {
+     "alt": 87,
+     "sound": "RONJA_14_187A1Alt2_VarforDa",
+     "next": "_14_187B1_motaBirk"
+    },
+    {
+     "alt": 88,
+     "sound": "RONJA_14_187A1Alt3_VarSkaDu",
+     "next": "_14_187A2_motaBirk"
+    }
+   ]
+  },
+  {
+   "id": 314,
+   "name": "_14_187A2_motaBirk",
+   "group": 48,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_14_187A2Say1_JagArFodd",
+    "RONJA_14_187A2Say1_JagKanBo"
+   ],
+   "alts": []
+  },
+  {
+   "id": 315,
+   "name": "_14_187B1_motaBirk",
+   "group": 48,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_14_187B1Say1_VarjeDagHar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 316,
+   "name": "_12_188A1_tittaBjork",
+   "group": 49,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_188A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 317,
+   "name": "_12_394A1_tittaBjork",
+   "group": 49,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 318,
+   "name": "_12_189A1_talaBjork",
+   "group": 49,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_189A1Say1_BjorkarPratarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 319,
+   "name": "_12_395A1_talaBjork",
+   "group": 49,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 320,
+   "name": "_12_190A1_taBjork",
+   "group": 49,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_190A1Say1_EnStig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 321,
+   "name": "_12_191A1_tittaSten",
+   "group": 50,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_191A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 322,
+   "name": "_12_192A1_talaSten",
+   "group": 50,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_192A1Say1_BjorkarPratarInte",
+    "RUMPNISSE_12_192A1Say1_VofforSkrikerHo"
+   ],
+   "alts": []
+  },
+  {
+   "id": 323,
+   "name": "_12_193A1_taSten",
+   "group": 50,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_193A1Say1_AhhhhhDen",
+    "RUMPNISSE_12_193A1Say1_VofforGorHo"
+   ],
+   "alts": []
+  },
+  {
+   "id": 324,
+   "name": "_12_396A1_taSten",
+   "group": 50,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 325,
+   "name": "_12_194A1_tittaVildtoringen",
+   "group": 51,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_194A1Say1_DetArEnVildhast"
+   ],
+   "alts": []
+  },
+  {
+   "id": 326,
+   "name": "_12_195A1_talaVildtoringen",
+   "group": 51,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_195A1Say1_RonjaLockar",
+    "RONJA_12_195A1Say1_DuFarHeta",
+    "DJUR1_12_195A1Say1_VildtoringenFrustar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 327,
+   "name": "_12_196A1_taVildtoringenA",
+   "group": 51,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "DJUR1_12_196A1Say1_VildtoringenGnaggar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 328,
+   "name": "_12_197A1_tittaRackarn",
+   "group": 52,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_194A1Say1_DetArEnVildhast"
+   ],
+   "alts": []
+  },
+  {
+   "id": 329,
+   "name": "_12_198A1_talaRackarn",
+   "group": 52,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_195A1Say1_RonjaLockar",
+    "RONJA_12_198A1Say1_RackarnArEtt",
+    "DJUR2_12_198A1Say1_RackarnFrustar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 330,
+   "name": "_12_199A1_taRackarnA",
+   "group": 52,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "DJUR2_12_199A1Say1_RackarnGnaggar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 331,
+   "name": "_12_199A1_geVildtoringen",
+   "group": 52,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "DJUR1_12_196A1Say1_VildtoringenGnaggar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 332,
+   "name": "_12_201A1_geRackarn",
+   "group": 52,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "DJUR2_12_199A1Say1_RackarnGnaggar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 333,
+   "name": "_12_202A1_VildvittreAttack",
+   "group": 52,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "VILDVITTRA_12_202A1Say1_HohoLilla",
+    "VILDVITTRA_12_202A1Say2_HohoLillaVackra"
+   ],
+   "alts": []
+  },
+  {
+   "id": 334,
+   "name": "_12_203A1_VildvittreAttack",
+   "group": 52,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "VILDVITTRA_12_202A1Say1_HohoLilla",
+    "VILDVITTRA_12_202A1Say2_HohoLillaVackra"
+   ],
+   "alts": []
+  },
+  {
+   "id": 335,
+   "name": "_9a_204A1_VildvittreAttack",
+   "group": 52,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "VILDVITTRA_12_202A1Say1_HohoLilla",
+    "VILDVITTRA_12_202A1Say2_HohoLillaVackra"
+   ],
+   "alts": []
+  },
+  {
+   "id": 336,
+   "name": "_9b_205A1_VildvittreAttack",
+   "group": 52,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "VILDVITTRA_12_202A1Say1_HohoLilla",
+    "VILDVITTRA_12_202A1Say2_HohoLillaVackra"
+   ],
+   "alts": []
+  },
+  {
+   "id": 337,
+   "name": "_12_206A1_tittaStoet",
+   "group": 53,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_206A1Say1_ViMasteGora"
+   ],
+   "alts": []
+  },
+  {
+   "id": 338,
+   "name": "_12_207A1_talaStoet",
+   "group": 53,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_207A1Say1_VarInteRadd",
+    "DJUR3_12_207A1Say1_StoetFrustar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 339,
+   "name": "_12_208A1_taStoet",
+   "group": 53,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 340,
+   "name": "_12_209A1_tittaBirk",
+   "group": 54,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_209A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 341,
+   "name": "_12_210A1_talaBirk",
+   "group": 54,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_12_210A1Say1_StackareVemHar"
+   ],
+   "alts": [
+    {
+     "alt": 89,
+     "sound": "RONJA_12_210A1Alt1_DetMasteVara",
+     "next": "_12_210A2_talaBirk"
+    },
+    {
+     "alt": 90,
+     "sound": "RONJA_12_210A1Alt2_VadSkaVi",
+     "next": "_12_210B1_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 342,
+   "name": "_12_210A2_talaBirk",
+   "group": 54,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_12_210A2Say1_ViKanInte"
+   ],
+   "alts": [
+    {
+     "alt": 91,
+     "sound": "RONJA_12_210A2Alt1_JagMasteStanna",
+     "next": "_12_210B1_talaBirk"
+    },
+    {
+     "alt": 92,
+     "sound": "RONJA_12_210A1Alt2_VadSkaVi",
+     "next": "_12_210B1_talaBirk"
+    },
+    {
+     "alt": 93,
+     "sound": "RONJA_12_210A2Alt3_ViMasteHarifran",
+     "next": "_12_210A3_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 343,
+   "name": "_12_210A3_talaBirk",
+   "group": 54,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 344,
+   "name": "_12_210B1_talaBirk",
+   "group": 54,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_12_210B1Say1_ViMasteLagga",
+    "DJUR3_12_207A1Say1_StoetFrustar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 345,
+   "name": "_12_211A1_taBirk",
+   "group": 54,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_211A1Say1_NejBirkHar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 346,
+   "name": "_12_397A1_taBirk",
+   "group": 54,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 347,
+   "name": "_12_212A1_felBirk",
+   "group": 54,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_12_212A1Say1_NejDetDar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 348,
+   "name": "_12_213A1_forbinderStoet",
+   "group": 54,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RUMPNISSE_12_213A1Say1_VofforGorDi",
+    "RONJA_12_213A1Say1_DetForstarViNog"
+   ],
+   "alts": []
+  },
+  {
+   "id": 349,
+   "name": "_12_603A1_forbundetSto",
+   "group": 54,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 350,
+   "name": "_12_214A1_tittaHastarna",
+   "group": 55,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_214A1Say1_DetArRackarn"
+   ],
+   "alts": []
+  },
+  {
+   "id": 351,
+   "name": "_12_215A1_talaHastarna",
+   "group": 55,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_215A1Say1_IdagSkaJag",
+    "DJUR2_12_198A1Say1_RackarnFrustar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 352,
+   "name": "_12_216A1_taHastarnaA",
+   "group": 55,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "DJUR2_12_216A1Say1_RackarnGnaggarVilt",
+    "RONJA_12_216A1Say1_RackarnDuAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 353,
+   "name": "_12_217A1_tittaStoet",
+   "group": 56,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_217A1Say1_HonVerkarMa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 354,
+   "name": "_12_218A1_talaStoet",
+   "group": 56,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_218A1Say1_JagTyckerAtt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 355,
+   "name": "_12_219A1_taStoet",
+   "group": 56,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_219A1Say1_DetHarLakt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 356,
+   "name": "_12_605A1_laktSto",
+   "group": 56,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 357,
+   "name": "_12_220A1_tittaStoet",
+   "group": 57,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_220A1Say1_DetArLia"
+   ],
+   "alts": []
+  },
+  {
+   "id": 358,
+   "name": "_12_221A1_talaStoet",
+   "group": 57,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_221A1Say1_NastaSommar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 359,
+   "name": "_12_222A1_taStoet",
+   "group": 57,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_219A1Say1_DuSkaHaTack"
+   ],
+   "alts": []
+  },
+  {
+   "id": 360,
+   "name": "_12_083A1_taStoet",
+   "group": 57,
+   "verb": "hand",
+   "minUse": 2,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 361,
+   "name": "_12_223A1_tittaBirk",
+   "group": 58,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_209A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 362,
+   "name": "_12_224A1_talaBirk",
+   "group": 58,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_12_224A1Say1_ViBordeGa"
+   ],
+   "alts": [
+    {
+     "alt": 94,
+     "sound": "RONJA_12_224A1Alt1_JaJagBorjar",
+     "next": "_12_224A2_talaBirk"
+    },
+    {
+     "alt": 95,
+     "sound": "RONJA_12_224A1Alt2_NejJagSka",
+     "next": "_12_216A1_taHastarna"
+    }
+   ]
+  },
+  {
+   "id": 363,
+   "name": "_12_224A2_talaBirk",
+   "group": 58,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 364,
+   "name": "_12_225A1_taBirk",
+   "group": 58,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_225A1Say1_VadTungDu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 365,
+   "name": "_12_226A1_tittaBirk",
+   "group": 59,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 366,
+   "name": "_12_227A1_talaBirk",
+   "group": 59,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_145A1Say1_KanViInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 367,
+   "name": "_12_228A1_taBirk",
+   "group": 59,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 368,
+   "name": "_12_229A1_tittaBirk",
+   "group": 60,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 369,
+   "name": "_12_230A1_talaBirk",
+   "group": 60,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_148A1Say1_TrorDuAtt",
+    "RONJA_9a_148A1Say1_MattisBrukadeSaja"
+   ],
+   "alts": []
+  },
+  {
+   "id": 370,
+   "name": "_12_231A1_taBirk",
+   "group": 60,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 371,
+   "name": "_12_398A1_taBirk",
+   "group": 60,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 372,
+   "name": "_12_232A1_tittaBirk",
+   "group": 61,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 373,
+   "name": "_12_233A1_talaBirk",
+   "group": 61,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_151A1Say1_ViMasteHa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 374,
+   "name": "_12_234A1_taBirk",
+   "group": 61,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 375,
+   "name": "_12_235A1_tittaBirk",
+   "group": 62,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 376,
+   "name": "_12_236A1_talaBirk",
+   "group": 62,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_154A1Say1_DetFinnsGott"
+   ],
+   "alts": []
+  },
+  {
+   "id": 377,
+   "name": "_12_237A1_taBirk",
+   "group": 62,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 378,
+   "name": "_10_238A1_tittaVattenkarl",
+   "group": 63,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_10_238A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 379,
+   "name": "_10_239A1_talaVattenkarl",
+   "group": 63,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_10_239A1Say1_DetArBastAtt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 380,
+   "name": "_10_240A1_taVattenkarl",
+   "group": 63,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 381,
+   "name": "_10_241A1_fyllaVattenkarl",
+   "group": 63,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 382,
+   "name": "_10_242A1_tittaBirk",
+   "group": 64,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 383,
+   "name": "_10_243A1_talaBirk",
+   "group": 64,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_145A1Say1_KanViInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 384,
+   "name": "_10_244A1_taBirk",
+   "group": 64,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 385,
+   "name": "_10_245A1_tittaBirk",
+   "group": 65,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 386,
+   "name": "_10_246A1_talaBirk",
+   "group": 65,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_151A1Say1_ViMasteHa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 387,
+   "name": "_10_247A1_taBirk",
+   "group": 65,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 388,
+   "name": "_10_248A1_tittaBirk",
+   "group": 66,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 389,
+   "name": "_10_249A1_talaBirk",
+   "group": 66,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_148A1Say1_TrorDuAtt",
+    "RONJA_9a_148A1Say1_MattisBrukadeSaja"
+   ],
+   "alts": []
+  },
+  {
+   "id": 390,
+   "name": "_10_250A1_taBirk",
+   "group": 66,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 391,
+   "name": "_10_251A1_tittaBirk",
+   "group": 67,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 392,
+   "name": "_10_252A1_talaBirk",
+   "group": 67,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_154A1Say1_DetFinnsGott"
+   ],
+   "alts": []
+  },
+  {
+   "id": 393,
+   "name": "_10_253A1_taBirk",
+   "group": 67,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 394,
+   "name": "_10_254A1_tittaBirk",
+   "group": 68,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 395,
+   "name": "_10_255A1_talaBirk",
+   "group": 68,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_145A1Say1_KanViInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 396,
+   "name": "_10_256A1_taBirk",
+   "group": 68,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 397,
+   "name": "_10_257A1_tittaBirk",
+   "group": 69,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 398,
+   "name": "_10_258A1_talaBirk",
+   "group": 69,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_10_258A1Say1_ViBordeTa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 399,
+   "name": "_10_259A1_taBirk",
+   "group": 69,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 400,
+   "name": "_10_260A1_tittaBirk",
+   "group": 70,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 401,
+   "name": "_10_261A1_talaBirk",
+   "group": 70,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_10_249A1Say1_TrorDuAtt",
+    "RONJA_9a_148A1Say1_MattisBrukadeSaja"
+   ],
+   "alts": []
+  },
+  {
+   "id": 402,
+   "name": "_10_262A1_taBirk",
+   "group": 70,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 403,
+   "name": "_10_263A1_tittaBirk",
+   "group": 71,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 404,
+   "name": "_10_264A1_talaBirk",
+   "group": 71,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_154A1Say1_DetFinnsGott"
+   ],
+   "alts": []
+  },
+  {
+   "id": 405,
+   "name": "_10_265A1_taBirk",
+   "group": 71,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 406,
+   "name": "_264A1_Vintern",
+   "group": 71,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 407,
+   "name": "_15_267A1_tittaStenblock",
+   "group": 72,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_267A1Say1_DetStarEtt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 408,
+   "name": "_15_268A1_talaStenblock",
+   "group": 72,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_268A1Say1_DetFinnsIngen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 409,
+   "name": "_15_269A1_taStenblock",
+   "group": 72,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_269A1Say1_JagOrkarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 410,
+   "name": "_15_399A1_taSten",
+   "group": 72,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 411,
+   "name": "_15_270A1_tittaStenblock",
+   "group": 73,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_267A1Say1_DetStarEtt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 412,
+   "name": "_15_271A1_talaStenblock",
+   "group": 73,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_271A1Say1_ArDetInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 413,
+   "name": "_15_272A1_taStenblock",
+   "group": 73,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_269A1Say1_JagOrkarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 414,
+   "name": "_15_400A1_taStenblock",
+   "group": 73,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 415,
+   "name": "_15_273A1_tittaBirk",
+   "group": 74,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 416,
+   "name": "_15_274A1_talaBirk",
+   "group": 74,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_15_274A1Say1_VadSkaVi"
+   ],
+   "alts": [
+    {
+     "alt": 96,
+     "sound": "RONJA_15_274A1Alt1_JagVetInte",
+     "next": "_15_274A2_talaBirk"
+    },
+    {
+     "alt": 97,
+     "sound": "RONJA_15_274A1Alt2_VantaSaSka",
+     "next": "_15_274B1_talaBirk"
+    },
+    {
+     "alt": 98,
+     "sound": "RONJA_15_274A1Alt3_ForsokaHittaEn",
+     "next": "_15_274C1_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 417,
+   "name": "_15_274A2_talaBirk",
+   "group": 74,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_15_274A2Say1_KanViInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 418,
+   "name": "_15_274B1_talaBirk",
+   "group": 74,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 419,
+   "name": "_15_274C1_talaBirk",
+   "group": 74,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_15_274C1Say1_JagSerEn"
+   ],
+   "alts": [
+    {
+     "alt": 99,
+     "sound": "RONJA_15_274C1Alt1_HurSkaVi",
+     "next": "_15_274C2_talaBirk"
+    },
+    {
+     "alt": 100,
+     "sound": "RONJA_15_274C1Alt2_HjalpMej",
+     "next": "_15_274C3_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 420,
+   "name": "_15_274C2_talaBirk",
+   "group": 74,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_15_274C2Say1_JagVetInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 421,
+   "name": "_15_274C3_talaBirk",
+   "group": 74,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 422,
+   "name": "_15_275A1_taBirk",
+   "group": 74,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_275A1Say1_JagOrkarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 423,
+   "name": "_15_401A1_taBirk",
+   "group": 74,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 424,
+   "name": "_15_276A1_tittaBirk",
+   "group": 75,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 425,
+   "name": "_15_277A1_talaBirk",
+   "group": 75,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_15_274A1Say1_VadSkaVi"
+   ],
+   "alts": [
+    {
+     "alt": 101,
+     "sound": "RONJA_15_274A1Alt1_JagVetInte",
+     "next": "_15_277A2_talaBirk"
+    },
+    {
+     "alt": 102,
+     "sound": "RONJA_15_277A1Alt2_JagFryser",
+     "next": "_15_277B1_talaBirk"
+    },
+    {
+     "alt": 103,
+     "sound": "RONJA_15_277A1Alt3_JagArHungrig",
+     "next": "_15_277C1_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 426,
+   "name": "_15_277A2_talaBirk",
+   "group": 75,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_15_277A2Say1_ViMasteHa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 427,
+   "name": "_15_277B1_talaBirk",
+   "group": 75,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_15_277B1Say1_DetFinnsEn"
+   ],
+   "alts": []
+  },
+  {
+   "id": 428,
+   "name": "_15_277C1_talaBirk",
+   "group": 75,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_15_277C1Say1_ForstMasteVi"
+   ],
+   "alts": []
+  },
+  {
+   "id": 429,
+   "name": "_15_278A1_taBirk",
+   "group": 75,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_278A1Say1_NejViMaste"
+   ],
+   "alts": []
+  },
+  {
+   "id": 430,
+   "name": "_16_279A1_tittaBirk",
+   "group": 76,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 431,
+   "name": "_16_280A1_talaBirk",
+   "group": 76,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_15_274A1Say1_VadSkaVi"
+   ],
+   "alts": [
+    {
+     "alt": 104,
+     "sound": "RONJA_15_274A1Alt1_JagVetInte",
+     "next": "_16_280A2_talaBirk"
+    },
+    {
+     "alt": 105,
+     "sound": "RONJA_15_277A1Alt2_JagFryser",
+     "next": "_16_280B1_talaBirk"
+    },
+    {
+     "alt": 106,
+     "sound": "RONJA_15_277A1Alt3_JagArHungrig",
+     "next": "_16_280C1_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 432,
+   "name": "_16_280A2_talaBirk",
+   "group": 76,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_15_277A2Say1_ViMasteHa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 433,
+   "name": "_16_280B1_talaBirk",
+   "group": 76,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_15_277B1Say1_DetFinnsEn"
+   ],
+   "alts": []
+  },
+  {
+   "id": 434,
+   "name": "_16_280C1_talaBirk",
+   "group": 76,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_15_277C1Say1_ForstMasteVi"
+   ],
+   "alts": []
+  },
+  {
+   "id": 435,
+   "name": "_16_281A1_taBirk",
+   "group": 76,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_278A1Say1_NejViMaste"
+   ],
+   "alts": []
+  },
+  {
+   "id": 436,
+   "name": "_16_606A1_ingenEld",
+   "group": 76,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 437,
+   "name": "_16_282A1_laggaFnoske",
+   "group": 76,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 438,
+   "name": "_16_283A1_tandaFnoske",
+   "group": 76,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_16_283A1Say1_tandaEld"
+   ],
+   "alts": []
+  },
+  {
+   "id": 439,
+   "name": "_16_607A1_tandEld",
+   "group": 76,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 440,
+   "name": "_16_284A1_stekaLax",
+   "group": 76,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 441,
+   "name": "_16_600A1_LaxenGrillas",
+   "group": 76,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 442,
+   "name": "_16_285A1_ataLax",
+   "group": 76,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_16_285A1Say1_DetVarGott"
+   ],
+   "alts": []
+  },
+  {
+   "id": 443,
+   "name": "_286A1_SommarenKommer",
+   "group": 76,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 444,
+   "name": "_15_287A1_LillKlippenVantar",
+   "group": 76,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 445,
+   "name": "_15_288A1_tittaLillKlippen",
+   "group": 77,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_288A1Say1_AhDetAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 446,
+   "name": "_15_289A1_talaLillKlippen",
+   "group": 77,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_289A1Say1_LillKlippenAArDet",
+    "LILLKLIPPEN_15_289A1Say1_VackerUtsikt"
+   ],
+   "alts": [
+    {
+     "alt": 107,
+     "sound": "RONJA_15_289A1Alt1_JaArDetDarfor",
+     "next": "_15_289A2_talaLillKlippen"
+    },
+    {
+     "alt": 108,
+     "sound": "RONJA_15_289A1Alt2_HurVissteDu",
+     "next": "_15_289B1_talaLillKlippen"
+    },
+    {
+     "alt": 109,
+     "sound": "RONJA_15_289A1Alt3_HurArDet",
+     "next": "_15_289C1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 447,
+   "name": "_15_289A2_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A2Say1_NaLovisSkickade",
+    "RONJA_15_289A2Say1_LovisBrod",
+    "LILLKLIPPEN_15_289A2Say2_JoLovisRaknade"
+   ],
+   "alts": [
+    {
+     "alt": 110,
+     "sound": "RONJA_15_289A1Alt2_HurVissteDu",
+     "next": "_15_289A3_talaLillKlippen"
+    },
+    {
+     "alt": 111,
+     "sound": "RONJA_15_289A1Alt3_HurArDet",
+     "next": "_15_289A4_talaLillKlippen"
+    },
+    {
+     "alt": 112,
+     "sound": "RONJA_15_289A2Alt3_HalsaLovisOch",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 448,
+   "name": "_15_289A3_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A3Say1_DuTrorVal"
+   ],
+   "alts": [
+    {
+     "alt": 113,
+     "sound": "RONJA_15_289A1Alt3_HurArDet",
+     "next": "_15_289A4_talaLillKlippen"
+    },
+    {
+     "alt": 114,
+     "sound": "RONJA_15_289A2Alt3_HalsaLovisOch",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 449,
+   "name": "_15_289A4_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A4Say1_SorgligtArDet"
+   ],
+   "alts": [
+    {
+     "alt": 115,
+     "sound": "RONJA_15_289A4Alt1_HarLovisSkickat",
+     "next": "_15_289A5_talaLillKlippen"
+    },
+    {
+     "alt": 116,
+     "sound": "RONJA_15_289A4Alt2_TalarMattis",
+     "next": "_15_289A6_talaLillKlippen"
+    },
+    {
+     "alt": 117,
+     "sound": "RONJA_15_289A4Alt3_SkrattarHanAldrig",
+     "next": "_15_289A7_talaLillKlippen"
+    },
+    {
+     "alt": 118,
+     "sound": "RONJA_15_289A2Alt3_HalsaLovisOch",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 450,
+   "name": "_15_289A5_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": "_15_289D1_talaLillKlippen",
+   "says": [
+    "LILLKLIPPEN_15_289A5Say1_JaDetArFor",
+    "RONJA_15_289A5Say1_MattisVantarHan",
+    "LILLKLIPPEN_15_289A5Say2_DenBesten",
+    "RONJA_15_289A2Alt3_HalsaLovisOch"
+   ],
+   "alts": []
+  },
+  {
+   "id": 451,
+   "name": "_15_289A6_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": "_15_289D1_talaLillKlippen",
+   "says": [
+    "LILLKLIPPEN_15_289A6Say1_NaOchIngen",
+    "RONJA_15_289A6Say1_JagKommerAldrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 452,
+   "name": "_15_289A7_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": "_15_289D1_talaLillKlippen",
+   "says": [
+    "LILLKLIPPEN_15_289A7Say1_HanHarInte",
+    "RONJA_15_289A6Say1_JagKommerAldrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 453,
+   "name": "_15_289B1_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A3Say1_DuTrorVal"
+   ],
+   "alts": [
+    {
+     "alt": 119,
+     "sound": "RONJA_15_289B1Alt1_VaforKomDu",
+     "next": "_15_289B2_talaLillKlippen"
+    },
+    {
+     "alt": 120,
+     "sound": "RONJA_15_289A1Alt3_HurArDet",
+     "next": "_15_289B3_talaLillKlippen"
+    },
+    {
+     "alt": 121,
+     "sound": "RONJA_15_289B1Alt3_HalsaLovis",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 454,
+   "name": "_15_289B2_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289B2Say1_LovisSkickade",
+    "RONJA_15_289A2Say1_LovisBrod",
+    "LILLKLIPPEN_15_289A2Say2_JoLovisRaknade"
+   ],
+   "alts": [
+    {
+     "alt": 122,
+     "sound": "RONJA_15_289A1Alt3_HurArDet",
+     "next": "_15_289B3_talaLillKlippen"
+    },
+    {
+     "alt": 123,
+     "sound": "RONJA_15_289A2Alt3_HalsaLovisOch",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 455,
+   "name": "_15_289B3_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A4Say1_SorgligtArDet"
+   ],
+   "alts": [
+    {
+     "alt": 124,
+     "sound": "RONJA_15_289A4Alt1_HarLovisSkickat",
+     "next": "_15_289B4_talaLillKlippen"
+    },
+    {
+     "alt": 125,
+     "sound": "RONJA_15_289A4Alt2_TalarMattis",
+     "next": "_15_289B5_talaLillKlippen"
+    },
+    {
+     "alt": 126,
+     "sound": "RONJA_15_289A4Alt3_SkrattarHanAldrig",
+     "next": "_15_289B6_talaLillKlippen"
+    },
+    {
+     "alt": 127,
+     "sound": "RONJA_15_289B1Alt3_HalsaLovis",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 456,
+   "name": "_15_289B4_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A5Say1_JaDetArFor",
+    "RONJA_15_289A5Say1_MattisVantarHan",
+    "LILLKLIPPEN_15_289A5Say2_DenBesten"
+   ],
+   "alts": [
+    {
+     "alt": 128,
+     "sound": "RONJA_15_289B4Alt1_VarDetBara",
+     "next": "_15_289B7_talaLillKlippen"
+    },
+    {
+     "alt": 129,
+     "sound": "RONJA_15_289B1Alt3_HalsaLovis",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 457,
+   "name": "_15_289B5_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A6Say1_NaOchIngen",
+    "RONJA_15_289B5Say1_JagKommerAldrig"
+   ],
+   "alts": [
+    {
+     "alt": 130,
+     "sound": "RONJA_15_289B4Alt1_VarDetBara",
+     "next": "_15_289B7_talaLillKlippen"
+    },
+    {
+     "alt": 131,
+     "sound": "RONJA_15_289B1Alt3_HalsaLovis",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 458,
+   "name": "_15_289B6_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A7Say1_HanHarInte"
+   ],
+   "alts": [
+    {
+     "alt": 132,
+     "sound": "RONJA_15_289B4Alt1_VarDetBara",
+     "next": "_15_289B7_talaLillKlippen"
+    },
+    {
+     "alt": 133,
+     "sound": "RONJA_15_289B1Alt3_HalsaLovis",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 459,
+   "name": "_15_289B7_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": "_15_289D1_talaLillKlippen",
+   "says": [
+    "LILLKLIPPEN_15_289A2Say1_NaLovisSkickade",
+    "RONJA_15_289A2Say1_LovisBrod",
+    "LILLKLIPPEN_15_289A2Say2_JoLovisRaknade",
+    "RONJA_15_289A2Alt3_HalsaLovisOch"
+   ],
+   "alts": []
+  },
+  {
+   "id": 460,
+   "name": "_15_289C1_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A4Say1_SorgligtArDet"
+   ],
+   "alts": [
+    {
+     "alt": 134,
+     "sound": "RONJA_15_289A4Alt1_HarLovisSkickat",
+     "next": "_15_289C20_talaLillKlippen"
+    },
+    {
+     "alt": 135,
+     "sound": "RONJA_15_289A4Alt2_TalarMattis",
+     "next": "_15_289C30_talaLillKlippen"
+    },
+    {
+     "alt": 136,
+     "sound": "RONJA_15_289A4Alt3_SkrattarHanAldrig",
+     "next": "_15_289C40_talaLillKlippen"
+    },
+    {
+     "alt": 137,
+     "sound": "RONJA_15_289B1Alt3_HalsaLovis",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 461,
+   "name": "_15_289C20_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A5Say1_JaDetArFor",
+    "RONJA_15_289A5Say1_MattisVantarHan",
+    "LILLKLIPPEN_15_289A5Say2_DenBesten"
+   ],
+   "alts": [
+    {
+     "alt": 138,
+     "sound": "RONJA_15_289B4Alt1_VarDetBara",
+     "next": "_15_289C21_talaLillKlippen"
+    },
+    {
+     "alt": 139,
+     "sound": "RONJA_15_289B1Alt3_HalsaLovis",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 462,
+   "name": "_15_289C21_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A2Say1_NaLovisSkickade",
+    "RONJA_15_289A2Say1_LovisBrod",
+    "LILLKLIPPEN_15_289A2Say2_JoLovisRaknade"
+   ],
+   "alts": [
+    {
+     "alt": 140,
+     "sound": "RONJA_15_289A1Alt2_HurVissteDu",
+     "next": "_15_289C22_talaLillKlippen"
+    },
+    {
+     "alt": 141,
+     "sound": "RONJA_15_289A2Alt3_HalsaLovisOch",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 463,
+   "name": "_15_289C22_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": "_15_289D1_talaLillKlippen",
+   "says": [
+    "LILLKLIPPEN_15_289A3Say1_DuTrorVal",
+    "RONJA_15_289A2Alt3_HalsaLovisOch"
+   ],
+   "alts": []
+  },
+  {
+   "id": 464,
+   "name": "_15_289C30_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A6Say1_NaOchIngen",
+    "RONJA_15_289B5Say1_JagKommerAldrig"
+   ],
+   "alts": [
+    {
+     "alt": 142,
+     "sound": "RONJA_15_289B4Alt1_VarDetBara",
+     "next": "_15_289C31_talaLillKlippen"
+    },
+    {
+     "alt": 143,
+     "sound": "RONJA_15_289B1Alt3_HalsaLovis",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 465,
+   "name": "_15_289C31_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A2Say1_NaLovisSkickade",
+    "RONJA_15_289A2Say1_LovisBrod",
+    "LILLKLIPPEN_15_289A2Say2_JoLovisRaknade"
+   ],
+   "alts": [
+    {
+     "alt": 144,
+     "sound": "RONJA_15_289A1Alt2_HurVissteDu",
+     "next": "_15_289C32_talaLillKlippen"
+    },
+    {
+     "alt": 145,
+     "sound": "RONJA_15_289A2Alt3_HalsaLovisOch",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 466,
+   "name": "_15_289C32_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": "_15_289D1_talaLillKlippen",
+   "says": [
+    "LILLKLIPPEN_15_289A3Say1_DuTrorVal",
+    "RONJA_15_289A2Alt3_HalsaLovisOch"
+   ],
+   "alts": []
+  },
+  {
+   "id": 467,
+   "name": "_15_289C40_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A7Say1_HanHarInte"
+   ],
+   "alts": [
+    {
+     "alt": 146,
+     "sound": "RONJA_15_289B4Alt1_VarDetBara",
+     "next": "_15_289C41_talaLillKlippen"
+    },
+    {
+     "alt": 147,
+     "sound": "RONJA_15_289B1Alt3_HalsaLovis",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 468,
+   "name": "_15_289C41_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LILLKLIPPEN_15_289A2Say1_NaLovisSkickade",
+    "RONJA_15_289A2Say1_LovisBrod",
+    "LILLKLIPPEN_15_289A2Say2_JoLovisRaknade"
+   ],
+   "alts": [
+    {
+     "alt": 148,
+     "sound": "RONJA_15_289A1Alt2_HurVissteDu",
+     "next": "_15_289C42_talaLillKlippen"
+    },
+    {
+     "alt": 149,
+     "sound": "RONJA_15_289A2Alt3_HalsaLovisOch",
+     "next": "_15_289D1_talaLillKlippen"
+    }
+   ]
+  },
+  {
+   "id": 469,
+   "name": "_15_289C42_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": "_15_289D1_talaLillKlippen",
+   "says": [
+    "LILLKLIPPEN_15_289A3Say1_DuTrorVal",
+    "RONJA_15_289A2Alt3_HalsaLovisOch"
+   ],
+   "alts": []
+  },
+  {
+   "id": 470,
+   "name": "_15_289D1_talaLillKlippen",
+   "group": 77,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 471,
+   "name": "_15_290A1_taLillKlippen",
+   "group": 77,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 472,
+   "name": "_610A1_tittaLillKlippen",
+   "group": 78,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_027A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 473,
+   "name": "_611A1_talaLillKlippen",
+   "group": 78,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_289A2Alt3_HalsaLovisOch"
+   ],
+   "alts": []
+  },
+  {
+   "id": 474,
+   "name": "_612A1_taLillKlippen",
+   "group": 78,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_2a_005A1Say1_NaHanAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 475,
+   "name": "_15_291A1_tittaBirk",
+   "group": 79,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_291A1Say1_DetArJu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 476,
+   "name": "_15_292A1_talaBirk",
+   "group": 79,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_15_292A1Say1_JasaDuFoljde",
+    "RONJA_15_292A1Say1_JagHarIngen",
+    "BIRK_15_292A1Say2_ForlatSostraMi"
+   ],
+   "alts": []
+  },
+  {
+   "id": 477,
+   "name": "_15_293A1_taBirk",
+   "group": 79,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_293A1Say1_JagOrkarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 478,
+   "name": "_15_294A1_LovisVantar",
+   "group": 79,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 479,
+   "name": "_15_295A1_tittaLovis",
+   "group": 80,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_295A1Say1_AhDetAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 480,
+   "name": "_15_296A1_talaLovis",
+   "group": 80,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "LOVIS_15_296A1Say1_DuVetVarfor",
+    "RONJA_15_296A1Say1_InteForAtt",
+    "LOVIS_15_296A1Say2_NejBrodFar",
+    "RONJA_15_296A1Say2_JagKommerAldrig",
+    "LOVIS_15_296A1Say3_JaDaSlutar",
+    "RONJA_15_296A1Say3_SkulleHanHoppa",
+    "LOVIS_15_296A1Say4_InteNarHan",
+    "RONJA_15_296A1Say4_LovisOmDu",
+    "LOVIS_15_296A1Say5_NejDetSkulle"
+   ],
+   "alts": []
+  },
+  {
+   "id": 481,
+   "name": "_15_297A1_taLovis",
+   "group": 80,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 482,
+   "name": "_15_298A1_tittaBirk",
+   "group": 81,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_298A1Say1_DetArBirk"
+   ],
+   "alts": []
+  },
+  {
+   "id": 483,
+   "name": "_15_299A1_talaBirk",
+   "group": 81,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_15_299A1Say1_ViHarBara"
+   ],
+   "alts": [
+    {
+     "alt": 150,
+     "sound": "RONJA_15_299A1Alt1_OchDuDa",
+     "next": "_15_299A2_talaBirk"
+    },
+    {
+     "alt": 151,
+     "sound": "RONJA_15_299A1Alt2_SommarEller",
+     "next": "_15_299B1_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 484,
+   "name": "_15_299A2_talaBirk",
+   "group": 81,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_15_299A2Say1_HarVisstKunde",
+    "RONJA_15_299A2Say1_OchFryserIhjal",
+    "BIRK_15_299A2Say2_SaFarDet"
+   ],
+   "alts": [
+    {
+     "alt": 152,
+     "sound": "RONJA_15_299A2Alt1_JaDetAr",
+     "next": null
+    },
+    {
+     "alt": 153,
+     "sound": "RONJA_15_299A1Alt2_SommarEller",
+     "next": "_15_299A3_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 485,
+   "name": "_15_299A3_talaBirk",
+   "group": 81,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_15_299A3Say1_DetHarJag",
+    "RONJA_15_299A2Alt1_JaDetAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 486,
+   "name": "_15_299B1_talaBirk",
+   "group": 81,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_15_299A3Say1_DetHarJag"
+   ],
+   "alts": [
+    {
+     "alt": 154,
+     "sound": "RONJA_15_299A2Alt1_JaDetAr",
+     "next": null
+    },
+    {
+     "alt": 155,
+     "sound": "RONJA_15_299A1Alt1_OchDuDa",
+     "next": "_15_299B2_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 487,
+   "name": "_15_299B2_talaBirk",
+   "group": 81,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_15_299A2Say1_HarVisstKunde",
+    "RONJA_15_299A2Say1_OchFryserIhjal",
+    "BIRK_15_299A2Say2_SaFarDet",
+    "RONJA_15_299A2Alt1_JaDetAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 488,
+   "name": "_15_300A1_taBirk",
+   "group": 81,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 489,
+   "name": "_9a_301A1_tittaBirk",
+   "group": 82,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_291A1Say1_DetArJu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 490,
+   "name": "_9a_302A1_talaBirk",
+   "group": 82,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_302A1Say1_DetArVarmt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 491,
+   "name": "_9a_303A1_taBirk",
+   "group": 82,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_303A1Say1_DetArFor"
+   ],
+   "alts": []
+  },
+  {
+   "id": 492,
+   "name": "_14_304A1_tittaBirk",
+   "group": 83,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_291A1Say1_DetArJu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 493,
+   "name": "_14_305A1_talaBirk",
+   "group": 83,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_14_305A1Say1_DetArSaVarmt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 494,
+   "name": "_14_306A1_taBirk",
+   "group": 83,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_14_306A1Say1_DetArSaVarmt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 495,
+   "name": "_10_307A1_tittaBirk",
+   "group": 84,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_298A1Say1_DetArBirk"
+   ],
+   "alts": []
+  },
+  {
+   "id": 496,
+   "name": "_10_308A1_talaBirk",
+   "group": 84,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_10_308A1Say1_DetArSaVarmt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 497,
+   "name": "_10_309A1_taBirk",
+   "group": 84,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_303A1Say1_DetArFor"
+   ],
+   "alts": []
+  },
+  {
+   "id": 498,
+   "name": "_10c_310A1_tittaBirk",
+   "group": 85,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_298A1Say1_DetArBirk"
+   ],
+   "alts": []
+  },
+  {
+   "id": 499,
+   "name": "_10c_311A1_talaBirk",
+   "group": 85,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_14_305A1Say1_DetArSaVarmt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 500,
+   "name": "_10c_312A1_taBirk",
+   "group": 85,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_303A1Say1_DetArFor"
+   ],
+   "alts": []
+  },
+  {
+   "id": 501,
+   "name": "_10_313A1_MattisGrater",
+   "group": 85,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 502,
+   "name": "_10_314A1_tittaMattis",
+   "group": 86,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_10_314A1Say1_DetArMattis"
+   ],
+   "alts": []
+  },
+  {
+   "id": 503,
+   "name": "_10_315A1_talaMattis",
+   "group": 86,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "MATTIS_10_315A1Say1_MittBarn",
+    "MATTIS_10_315A1Say2_JagHarMittBarn",
+    "RONJA_10_315A1Say1_ArJagDitt",
+    "MATTIS_10_315A1Say3_JaSomDu",
+    "MATTIS_10_315A1Say4_JagBerDej",
+    "MATTIS_10_315A1Say5_BirkBorkason",
+    "BIRK_10_315A1Say1_VadVillDu",
+    "MATTIS_10_315A1Say6_EgentligenKlaOpp",
+    "BERATTAREN_10_315A1Say1_BirkTvekade",
+    "BERATTAREN_10_315A1Say2_MattisOchBorka",
+    "ROVARNA_10_315A1Say1_RovarnaHejar",
+    "MATTIS_10_315A1Say7_DetArMej",
+    "BORKA_10_315A1Say1_DetArMej",
+    "ROVARNA_10_315A1Say1_RovarnaJublar",
+    "BERATTAREN_10_315A1Say3_NarKampen",
+    "BERATTAREN_10_315A1Say4_VinternKom",
+    "BERATTAREN_10_315A1Say5_OchRonjaSkrek",
+    "RONJA_8_182A1Say1_RonjasVarskrik"
+   ],
+   "alts": []
+  },
+  {
+   "id": 504,
+   "name": "_10_316A1_taMattis",
+   "group": 86,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "MATTIS_10_316A1Say1_RonjaMi",
+    "MATTIS_10_315A1Say2_JagHarMittBarn",
+    "RONJA_10_315A1Say1_ArJagDitt",
+    "MATTIS_10_315A1Say3_JaSomDu",
+    "MATTIS_10_315A1Say4_JagBerDej",
+    "MATTIS_10_315A1Say5_BirkBorkason",
+    "BIRK_10_315A1Say1_VadVillDu",
+    "MATTIS_10_315A1Say6_EgentligenKlaOpp"
+   ],
+   "alts": []
+  },
+  {
+   "id": 505,
+   "name": "_13_317A1_VildvittraTar",
+   "group": 86,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "VILDVITTRA_13_317A1Say1_HohoLillaVackra"
+   ],
+   "alts": []
+  },
+  {
+   "id": 506,
+   "name": "_14_318A1_RonjasHjalpSkrik",
+   "group": 86,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_14_318A1Say1_RonjasSkrackSkrik",
+    "RONJA_14_318A1Say1_MattisMattis",
+    "MATTIS_14_318A1Say1_ForsvinnGradvargar",
+    "MATTIS_14_318A1Say2_NuVetDu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 507,
+   "name": "_14_319A1_Attack",
+   "group": 86,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "VILDVITTRA_12_202A1Say2_HohoLillaVackra",
+    "GRADVARGARNA_14_319A1Say1_GradvargarAlla"
+   ],
+   "alts": []
+  },
+  {
+   "id": 508,
+   "name": "_18_320A1_TarningsSpel",
+   "group": 86,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_18_320A1Say1_HogstVinner",
+    "SKALLEPER_18_320A1Say1_JustSa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 509,
+   "name": "_18_321A1_TarningsSpel",
+   "group": 86,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_18_321A1Say1_SkaViSpela"
+   ],
+   "alts": [
+    {
+     "alt": 156,
+     "sound": "RONJA_18_321A1Alt1_JaNuSkaDu",
+     "next": null
+    },
+    {
+     "alt": 157,
+     "sound": "RONJA_18_321A1Alt2_NejJagMaste",
+     "next": "_18_321A2_TarningsSpel"
+    }
+   ]
+  },
+  {
+   "id": 510,
+   "name": "_18_321A2_TarningsSpel",
+   "group": 86,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_18_321A2Say1_GorSaDu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 511,
+   "name": "_18_120A1_TarningsSpel",
+   "group": 86,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_18_120A1Say1_NaNuFarDet"
+   ],
+   "alts": [
+    {
+     "alt": 158,
+     "sound": "RONJA_18_120A1Alt1_SnallaSkallePer",
+     "next": "_18_120A2_TarningsSpel"
+    },
+    {
+     "alt": 159,
+     "sound": "RONJA_18_120A1Alt2_JaJagMaste",
+     "next": "_18_120A3_TarningsSpel"
+    }
+   ]
+  },
+  {
+   "id": 512,
+   "name": "_18_120A2_TarningsSpel",
+   "group": 86,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_18_120A2Say1_TjaJagFar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 513,
+   "name": "_18_120A3_TarningsSpel",
+   "group": 86,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_18_321A2Say1_GorSaDu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 514,
+   "name": "_9b_322A1_skrammerBirk",
+   "group": 86,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_7_322A1Say1_Ronja",
+    "BIRK_9b_322A1Say2_DenHarDimman"
+   ],
+   "alts": []
+  },
+  {
+   "id": 515,
+   "name": "_9b_323A1_tittaBirk",
+   "group": 87,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_14_179A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 516,
+   "name": "_9b_324A1_talaBirk",
+   "group": 87,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9b_324A1Say1_JasaArDuRadd",
+    "BIRK_9b_324A1Say1_BirkSkrattar",
+    "BIRK_9b_324A1Say1_DuArHardare"
+   ],
+   "alts": []
+  },
+  {
+   "id": 517,
+   "name": "_9b_599A1_talaBirk",
+   "group": 87,
+   "verb": "mouth",
+   "minUse": 2,
+   "next": null,
+   "says": [
+    "BIRK_9b_599A1Say1_KanjagInteFa",
+    "RONJA_9b_599A1Say1_DuHallerSa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 518,
+   "name": "_9b_325A1_taBirk",
+   "group": 87,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9b_325A1Say1_NejJagVillInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 519,
+   "name": "_9b_339A1_talaBirk",
+   "group": 87,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_9b_339A1Say1_NejTackRovardotter"
+   ],
+   "alts": []
+  },
+  {
+   "id": 520,
+   "name": "_9b_326A1_hjalpaBirk",
+   "group": 87,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_9b_326A1Say1_HarHallDej",
+    "BIRK_9b_326A1Say1_LaterDuDej",
+    "BIRK_9b_326A1Say2_TackSkaDuHa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 521,
+   "name": "_9b_327A1_BirkOchDimman",
+   "group": 87,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_14_318A1Say1_JaJagKommer",
+    "MATTIS_9b_327A1Say1_RonjaRonjaForsvinnFar",
+    "MATTIS_9b_327A1Say2_NuVetDu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 522,
+   "name": "_11_328A1_RonjaISnon",
+   "group": 87,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_14_328A1Say1_Aj"
+   ],
+   "alts": []
+  },
+  {
+   "id": 523,
+   "name": "_8_330A1_RonjaVinter",
+   "group": 87,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_8_330A1Say1_NejDetAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 524,
+   "name": "_8_331A1_RonjaVinter",
+   "group": 87,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "LOVIS_8_331A1Say1_NuSkaJag"
+   ],
+   "alts": []
+  },
+  {
+   "id": 525,
+   "name": "_16_332A1_Gradvargar",
+   "group": 87,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "GRADVARGARNA_14_319A1Say1_GradvargarAlla"
+   ],
+   "alts": []
+  },
+  {
+   "id": 526,
+   "name": "_13_333A1_Vildvittror",
+   "group": 87,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "VILDVITTRA_13_333A1Say1_HohoLillaVackra"
+   ],
+   "alts": []
+  },
+  {
+   "id": 527,
+   "name": "_1d_334A1_tittaLucka",
+   "group": 88,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_334A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 528,
+   "name": "_1d_335A1_talaLucka",
+   "group": 88,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_335A1Say1_DetFinnsIngen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 529,
+   "name": "_1d_336A1_taLucka",
+   "group": 88,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_336A1Say1_JagOrkarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 530,
+   "name": "_337A1_KartanVinter",
+   "group": 88,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_inv_337A1Say1_DetGarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 531,
+   "name": "_14_402A1_ravlyanBirk",
+   "group": 88,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_14_402A1Say1_GaForsiktigt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 532,
+   "name": "_14_403A1_tittaBirk",
+   "group": 89,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_14_179A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 533,
+   "name": "_14_404A1_talaBirk",
+   "group": 89,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_14_180A1Say1_VadVillDu"
+   ],
+   "alts": [
+    {
+     "alt": 160,
+     "sound": "RONJA_14_404A1Alt1_HurJagGar",
+     "next": "_14_404A2_talaBirk"
+    },
+    {
+     "alt": 161,
+     "sound": "RONJA_14_180A1Alt2_JagVillAtt",
+     "next": "_14_404B1_talaBirk"
+    }
+   ]
+  },
+  {
+   "id": 534,
+   "name": "_14_404A2_talaBirk",
+   "group": 89,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 535,
+   "name": "_14_404B1_talaBirk",
+   "group": 89,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_14_180B1Say1_DinaRavUngar",
+    "RONJA_14_180B1Say1_JagKannerAllt",
+    "BIRK_14_180B1Say2_DessutomArDet",
+    "RONJA_14_180B1Say2_JagDelarGarna"
+   ],
+   "alts": []
+  },
+  {
+   "id": 536,
+   "name": "_14_405A1_taBirk",
+   "group": 89,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_14_181A1Say1_NejJagVillInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 537,
+   "name": "_9b_406A1_tittaBirk",
+   "group": 90,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 538,
+   "name": "_9a_407A1_talaBirk",
+   "group": 90,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_145A1Say1_KanViInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 539,
+   "name": "_9b_408A1_taBirk",
+   "group": 90,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 540,
+   "name": "_9b_409A1_tittaBirk",
+   "group": 91,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 541,
+   "name": "_9b_410A1_talaBirk",
+   "group": 91,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_148A1Say1_TrorDuAtt",
+    "RONJA_9a_148A1Say1_MattisBrukadeSaja"
+   ],
+   "alts": []
+  },
+  {
+   "id": 542,
+   "name": "_9b_411A1_taBirk",
+   "group": 91,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 543,
+   "name": "_9b_412A1_tittaBirk",
+   "group": 92,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 544,
+   "name": "_9b_413A1_talaBirk",
+   "group": 92,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_151A1Say1_ViMasteHa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 545,
+   "name": "_9b_414A1_taBirk",
+   "group": 92,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 546,
+   "name": "_9b_415A1_tittaBirk",
+   "group": 93,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 547,
+   "name": "_9b_416A1_talaBirk",
+   "group": 93,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_154A1Say1_DetFinnsGott"
+   ],
+   "alts": []
+  },
+  {
+   "id": 548,
+   "name": "_9b_417A1_taBirk",
+   "group": 93,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 549,
+   "name": "_9b_418A1_tittaBirk",
+   "group": 94,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_15_291A1Say1_DetArJu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 550,
+   "name": "_9b_419A1_talaBirk",
+   "group": 94,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_302A1Say1_DetArVarmt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 551,
+   "name": "_9b_420A1_taBirk",
+   "group": 94,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_303A1Say1_DetArFor"
+   ],
+   "alts": []
+  },
+  {
+   "id": 552,
+   "name": "_1d_421A1_tittaSpis",
+   "group": 95,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_421A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 553,
+   "name": "_1d_422A1_talaSpis",
+   "group": 95,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_335A1Say1_DetFinnsIngen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 554,
+   "name": "_1d_423A1_talaSpis",
+   "group": 95,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 555,
+   "name": "_1d_424A1_taSpis",
+   "group": 95,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_424A1Say1_JagKanInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 556,
+   "name": "_1d_425A1_taSpis",
+   "group": 95,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 557,
+   "name": "_1d_426A1_utanFnoske",
+   "group": 95,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_1d_426A1Say1_DetGarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 558,
+   "name": "_1d_427A1_medFnoske",
+   "group": 95,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_1d_426A1Say1_DetGarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 559,
+   "name": "_1d_428A1_TandaSpis",
+   "group": 95,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 560,
+   "name": "_1d_429A1_tittaRatthalet",
+   "group": 96,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_429A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 561,
+   "name": "_1d_430A1_talaRatthalet",
+   "group": 96,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_430A1Say1_DetFinnsIngen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 562,
+   "name": "_1d_431A1_talaRatthalet",
+   "group": 96,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 563,
+   "name": "_1d_432A1_taRatthalet",
+   "group": 96,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RATTA_1d_432A1Say1_RattaPiper",
+    "RONJA_1d_432A1Say1_JagKanInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 564,
+   "name": "_1d_433A1_taRatthalet",
+   "group": 96,
+   "verb": "hand",
+   "minUse": 2,
+   "next": null,
+   "says": [
+    "RONJA_1d_432A1Say1_JagKanInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 565,
+   "name": "_1d_434A1_taRatthalet",
+   "group": 96,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 566,
+   "name": "_1d_435A1_tittaRattfallan",
+   "group": 97,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_071A1Say1_RattfallanArTom"
+   ],
+   "alts": []
+  },
+  {
+   "id": 567,
+   "name": "_1d_436A1_talaRattfallan",
+   "group": 97,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_072A1Say1_HarFinnsInget"
+   ],
+   "alts": []
+  },
+  {
+   "id": 568,
+   "name": "_1d_437A1_talaRattfalla",
+   "group": 97,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 569,
+   "name": "_1d_438A1_taRattfallan",
+   "group": 97,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_438A1Say1_AschOstenFinns"
+   ],
+   "alts": []
+  },
+  {
+   "id": 570,
+   "name": "_6_439A1_tandaFacklan",
+   "group": 97,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 571,
+   "name": "_6_441A1_morkKallare",
+   "group": 97,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_6_441A1Say1_DetArFor"
+   ],
+   "alts": []
+  },
+  {
+   "id": 572,
+   "name": "_1c_442A1_aktaEld",
+   "group": 97,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_1c_442A1Say1_AktaDejFor"
+   ],
+   "alts": []
+  },
+  {
+   "id": 573,
+   "name": "_1c_443A1_tittaMattis",
+   "group": 98,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_10_314A1Say1_DetArMattis"
+   ],
+   "alts": []
+  },
+  {
+   "id": 574,
+   "name": "_1c_444A1_talaMattis",
+   "group": 98,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "MATTIS_1c_442A1Say1_AktaDejFor"
+   ],
+   "alts": []
+  },
+  {
+   "id": 575,
+   "name": "_1c_445A1_talaMattis",
+   "group": 98,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 576,
+   "name": "_1c_446A1_taMattis",
+   "group": 98,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1c_446A1Say1_JagOrkarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 577,
+   "name": "_1c_447A1_taMattis",
+   "group": 98,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 578,
+   "name": "_1c_448A1_MattisSitter",
+   "group": 98,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 579,
+   "name": "_8_449A1_RonjaVidBorgporten",
+   "group": 98,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_8_449A1Say1_JagTankerAldrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 580,
+   "name": "_1a_450A1_tittaKarta",
+   "group": 99,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_018A1Say1_DetSerUt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 581,
+   "name": "_1a_451A1_tittaKarta",
+   "group": 99,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 582,
+   "name": "_1a_452A1_talaKarta",
+   "group": 99,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_019A1Say1_FinnsDetNagan"
+   ],
+   "alts": []
+  },
+  {
+   "id": 583,
+   "name": "_1a_453A1_talaKarta",
+   "group": 99,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 584,
+   "name": "_1a_454A1_taKarta",
+   "group": 99,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_454A1Say1_DuMittHjarta"
+   ],
+   "alts": []
+  },
+  {
+   "id": 585,
+   "name": "_1a_455A1_oppnaKista",
+   "group": 99,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 586,
+   "name": "_1a_456A1_tittaKista",
+   "group": 100,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_014A1Say1_DetArEn"
+   ],
+   "alts": []
+  },
+  {
+   "id": 587,
+   "name": "_1a_457A1_tittaKista",
+   "group": 100,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 588,
+   "name": "_1a_458A1_talaKista",
+   "group": 100,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_015A1Say1_DetArEnKista"
+   ],
+   "alts": []
+  },
+  {
+   "id": 589,
+   "name": "_1a_459A1_talaKista",
+   "group": 100,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 590,
+   "name": "_1a_460A1_taKista",
+   "group": 100,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_016A1Say1_DetGarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 591,
+   "name": "_1a_461A1_taKista",
+   "group": 100,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 592,
+   "name": "_4_462A1_tittaNerILada",
+   "group": 100,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 593,
+   "name": "_1d_463A1_tittaSandhink",
+   "group": 101,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_463A1Say1_DenDarAnvander"
+   ],
+   "alts": []
+  },
+  {
+   "id": 594,
+   "name": "_1d_464A1_talaSandhink",
+   "group": 101,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_464A1Say1_DenFinnsIngen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 595,
+   "name": "_1d_465A1_talaSandhink",
+   "group": 101,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 596,
+   "name": "_1d_466A1_taSandhink",
+   "group": 101,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1d_466A1Say1_JagOrkarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 597,
+   "name": "_1d_467A1_taSandhink",
+   "group": 101,
+   "verb": "hand",
+   "minUse": 2,
+   "next": null,
+   "says": [
+    "RONJA_1d_467A1Say1_DenMaste"
+   ],
+   "alts": []
+  },
+  {
+   "id": 598,
+   "name": "_1d_468A1_taSandhink",
+   "group": 101,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 599,
+   "name": "_469A1_tittaRatta",
+   "group": 102,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_469A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 600,
+   "name": "_471A1_tittaTomRattfalla",
+   "group": 103,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_471A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 601,
+   "name": "_473A1_tittaLaddadRattfalla",
+   "group": 104,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_473A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 602,
+   "name": "_475A1_tittaNyckel",
+   "group": 105,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_475A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 603,
+   "name": "_477A1_tittaOst",
+   "group": 106,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_477A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 604,
+   "name": "_479A1_tittaFnoske",
+   "group": 107,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_479A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 605,
+   "name": "_481A1_tittaEldstal",
+   "group": 108,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_481A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 606,
+   "name": "_483A1_tittaFlinta",
+   "group": 109,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_483A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 607,
+   "name": "_485A1_tittaFackla",
+   "group": 110,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_485A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 608,
+   "name": "_487A1_tittaTandFackla",
+   "group": 111,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_487A1Say1_DenHarFacklan"
+   ],
+   "alts": []
+  },
+  {
+   "id": 609,
+   "name": "_489A1_tittaMorotter",
+   "group": 112,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_489A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 610,
+   "name": "_491A1_tittaRovor",
+   "group": 113,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_491A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 611,
+   "name": "_493A1_tittaBrodkaka",
+   "group": 114,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_493A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 612,
+   "name": "_495A1_tittaTomtKarl",
+   "group": 115,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_495A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 613,
+   "name": "_497A1_tittaFylltKarl",
+   "group": 116,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_497A1Say1_DetDar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 614,
+   "name": "_499A1_tittaFisknat",
+   "group": 117,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_499A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 615,
+   "name": "_501A1_tittaLax",
+   "group": 118,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_501A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 616,
+   "name": "_503A1_tittaVitmossa",
+   "group": 119,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_503A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 617,
+   "name": "_505A1_tittaSkinnrem",
+   "group": 120,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_505A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 618,
+   "name": "_507A1_OstenRattfallan",
+   "group": 120,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_inv_507A1Say1_SadarDa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 619,
+   "name": "_508A1_EldstaletFlintan",
+   "group": 120,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_inv_508A1Say1_MedDomHar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 620,
+   "name": "_509A1_FelSaker",
+   "group": 120,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_inv_509A1Say1_NejDetDar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 621,
+   "name": "_510A1_FelSakerAlternativ",
+   "group": 120,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_inv_510A1Say1_NejDetDar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 622,
+   "name": "_1a_511A1_SkalleSnark",
+   "group": 120,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_011A1Say1_SkalleSnark"
+   ],
+   "alts": []
+  },
+  {
+   "id": 623,
+   "name": "_2a_512A1_ryktarHastar",
+   "group": 120,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 624,
+   "name": "_12_513A1_HastarBetar",
+   "group": 120,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 625,
+   "name": "_12_514A1_SkadatSto",
+   "group": 120,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "DJUR3_12_207A1Say1_StoetFrustar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 626,
+   "name": "_1a_515A1_tittaSkallePer",
+   "group": 121,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_011A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 627,
+   "name": "_1a_516A1_tittaSkallePer",
+   "group": 121,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 628,
+   "name": "_1a_517A1_talaSkallePer",
+   "group": 121,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_012A1Say1_SkallePerVakna",
+    "SKALLEPER_1a_517A1Say1_MinFrojdOch"
+   ],
+   "alts": []
+  },
+  {
+   "id": 629,
+   "name": "_1a_518A1_taSkallePer",
+   "group": 121,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_013A1Say1_SkallePerVakna",
+    "SKALLEPER_1a_013A1Say1_OckOckOck"
+   ],
+   "alts": [
+    {
+     "alt": 162,
+     "sound": "RONJA_1a_013A1Alt1_JagHarInget",
+     "next": "_1a_518A2_taSkallePer"
+    },
+    {
+     "alt": 163,
+     "sound": "RONJA_1a_013A1Alt2_JagVillSpela",
+     "next": "_1a_518B1_taSkallePer"
+    }
+   ]
+  },
+  {
+   "id": 630,
+   "name": "_1a_518A2_taSkallePer",
+   "group": 121,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013A2Say1_HarDuInget"
+   ],
+   "alts": [
+    {
+     "alt": 164,
+     "sound": "RONJA_1a_013A2Alt1_GarnaSpela",
+     "next": null
+    },
+    {
+     "alt": 165,
+     "sound": "RONJA_1a_013A2Alt2_NejKanDu",
+     "next": "_1a_518A3_taSkallePer"
+    },
+    {
+     "alt": 166,
+     "sound": "RONJA_1a_013A2Alt3_NejInteIdag",
+     "next": "_1a_518A4_taSkallePer"
+    },
+    {
+     "alt": 167,
+     "sound": "RONJA_1a_013A2Alt4_JagMaste",
+     "next": "_1a_518D1_taSkallePer"
+    }
+   ]
+  },
+  {
+   "id": 631,
+   "name": "_1a_518A3_taSkallePer",
+   "group": 121,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013A3Say1_DaSkaJAg"
+   ],
+   "alts": []
+  },
+  {
+   "id": 632,
+   "name": "_1a_518A4_taSkallePer",
+   "group": 121,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013A4Say1_EnSkatt"
+   ],
+   "alts": []
+  },
+  {
+   "id": 633,
+   "name": "_1a_518B1_taSkallePer",
+   "group": 121,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013B1Say1_SpelaTarning"
+   ],
+   "alts": []
+  },
+  {
+   "id": 634,
+   "name": "_1a_518D1_taSkallePer",
+   "group": 121,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013D1Say1_GorSaDu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 635,
+   "name": "_1a_519A1_tittaSkallePer",
+   "group": 122,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_011A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 636,
+   "name": "_1a_520A1_tittaSkallePer",
+   "group": 122,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 637,
+   "name": "_1a_521A1_talaSkallePer",
+   "group": 122,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_012A1Say1_SkallePerVakna",
+    "SKALLEPER_1a_517A1Say1_MinFrojdOch"
+   ],
+   "alts": []
+  },
+  {
+   "id": 638,
+   "name": "_1a_522A1_taSkallePer",
+   "group": 122,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_013A1Say1_SkallePerVakna",
+    "SKALLEPER_1a_013A1Say1_OckOckOck"
+   ],
+   "alts": [
+    {
+     "alt": 168,
+     "sound": "RONJA_1a_013A1Alt1_JagHarInget",
+     "next": "_1a_522A2_taSkallePer"
+    },
+    {
+     "alt": 169,
+     "sound": "RONJA_1a_013A1Alt2_JagVillSpela",
+     "next": "_1a_522B1_taSkallePer"
+    }
+   ]
+  },
+  {
+   "id": 639,
+   "name": "_1a_522A2_taSkallePer",
+   "group": 122,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013A2Say1_HarDuInget"
+   ],
+   "alts": [
+    {
+     "alt": 170,
+     "sound": "RONJA_1a_013A2Alt1_GarnaSpela",
+     "next": null
+    },
+    {
+     "alt": 171,
+     "sound": "RONJA_1a_013A2Alt2_NejKanDu",
+     "next": "_1a_522A3_taSkallePer"
+    },
+    {
+     "alt": 172,
+     "sound": "RONJA_1a_013A2Alt4_JagMaste",
+     "next": "_1a_522D1_taSkallePer"
+    }
+   ]
+  },
+  {
+   "id": 640,
+   "name": "_1a_522A3_taSkallePer",
+   "group": 122,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013A3Say1_DaSkaJAg"
+   ],
+   "alts": []
+  },
+  {
+   "id": 641,
+   "name": "_1a_522B1_taSkallePer",
+   "group": 122,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013B1Say1_SpelaTarning"
+   ],
+   "alts": []
+  },
+  {
+   "id": 642,
+   "name": "_1a_522D1_taSkallePer",
+   "group": 122,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "SKALLEPER_1a_013D1Say1_GorSaDu"
+   ],
+   "alts": []
+  },
+  {
+   "id": 643,
+   "name": "_1a_523A1_tittaKista",
+   "group": 123,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_523A1Say1_KistanArTom"
+   ],
+   "alts": []
+  },
+  {
+   "id": 644,
+   "name": "_1a_524A1_tittaKista",
+   "group": 123,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 645,
+   "name": "_1a_525A1_talaKista",
+   "group": 123,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_015A1Say1_DetArEnKista"
+   ],
+   "alts": []
+  },
+  {
+   "id": 646,
+   "name": "_1a_526A1_talaKista",
+   "group": 123,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 647,
+   "name": "_1a_527A1_taKista",
+   "group": 123,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_527A1Say1_JagHarIngen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 648,
+   "name": "_1a_528A1_taKista",
+   "group": 123,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 649,
+   "name": "_1a_529A1_tittaKista",
+   "group": 124,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_523A1Say1_KistanArTom"
+   ],
+   "alts": []
+  },
+  {
+   "id": 650,
+   "name": "_1a_530A1_tittaKista",
+   "group": 124,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 651,
+   "name": "_1a_531A1_talaKista",
+   "group": 124,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_015A1Say1_DetArEnKista"
+   ],
+   "alts": []
+  },
+  {
+   "id": 652,
+   "name": "_1a_532A1_talaKista",
+   "group": 124,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 653,
+   "name": "_1a_533A1_taKista",
+   "group": 124,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1a_527A1Say1_JagHarIngen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 654,
+   "name": "_1a_534A1_taKista",
+   "group": 124,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 655,
+   "name": "_1b_535A1_LovisSpinner",
+   "group": 124,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 656,
+   "name": "_1b_537A1_Skinnrem",
+   "group": 124,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 657,
+   "name": "_1b_538A1_tittaSkinnrem",
+   "group": 125,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1b_538A1Say1_DetArEn"
+   ],
+   "alts": []
+  },
+  {
+   "id": 658,
+   "name": "_1b_539A1_tittaSkinnrem",
+   "group": 125,
+   "verb": "eye",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 659,
+   "name": "_1b_540A1_talaSkinnrem",
+   "group": 125,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_1b_540A1Say1_DenKanInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 660,
+   "name": "_1b_541A1_talaSkinnrem",
+   "group": 125,
+   "verb": "mouth",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "RONJA_2a_338A1Say1_FarAtPipsvangen"
+   ],
+   "alts": []
+  },
+  {
+   "id": 661,
+   "name": "_1b_542A1_taSkinnrem",
+   "group": 125,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 662,
+   "name": "_1c_543A1_MattisSuck",
+   "group": 125,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "MATTIS_1c_033A1Say1_MattisSuck"
+   ],
+   "alts": []
+  },
+  {
+   "id": 663,
+   "name": "_1d_544A1_felEldstal",
+   "group": 125,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_1d_544A1Say1_JagMaste"
+   ],
+   "alts": []
+  },
+  {
+   "id": 664,
+   "name": "_1d_545A1_felFlinta",
+   "group": 125,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_1d_545A1Say1_JagMaste"
+   ],
+   "alts": []
+  },
+  {
+   "id": 665,
+   "name": "_1d_546A1_felRattfalla",
+   "group": 125,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_1d_546A1Say1_JagMaste"
+   ],
+   "alts": []
+  },
+  {
+   "id": 666,
+   "name": "_4_547A1_tomLada",
+   "group": 125,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_4_547A1Say1_DenArTom"
+   ],
+   "alts": []
+  },
+  {
+   "id": 667,
+   "name": "_9a_548A1_tittaBirk",
+   "group": 126,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 668,
+   "name": "_9a_549A1_talaBirk",
+   "group": 126,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_549A1Say1_JagArHungrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 669,
+   "name": "_9a_550A1_taBirk",
+   "group": 126,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 670,
+   "name": "_9b_551A1_tittaBirk",
+   "group": 127,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 671,
+   "name": "_9b_552A1_talaBirk",
+   "group": 127,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_549A1Say1_JagArHungrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 672,
+   "name": "_9b_553A1_taBirk",
+   "group": 127,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 673,
+   "name": "_13_554A1_tittaBirk",
+   "group": 128,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 674,
+   "name": "_13_555A1_talaBirk",
+   "group": 128,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_549A1Say1_JagArHungrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 675,
+   "name": "_13_556A1_taBirk",
+   "group": 128,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 676,
+   "name": "_13_557A1_tittaBirk",
+   "group": 129,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 677,
+   "name": "_13_558A1_talaBirk",
+   "group": 129,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_13_558A1Say1_KanViInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 678,
+   "name": "_13_559A1_taBirk",
+   "group": 129,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_559A1Say1_JagOrkarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 679,
+   "name": "_14_560A1_tittaBirk",
+   "group": 130,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 680,
+   "name": "_14_561A1_talaBirk",
+   "group": 130,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_145A1Say1_KanViInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 681,
+   "name": "_14_562A1_taBirk",
+   "group": 130,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 682,
+   "name": "_14_563A1_tittaBirk",
+   "group": 131,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 683,
+   "name": "_14_564A1_talaBirk",
+   "group": 131,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_10_258A1Say1_ViBordeTa"
+   ],
+   "alts": []
+  },
+  {
+   "id": 684,
+   "name": "_14_565A1_taBirk",
+   "group": 131,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 685,
+   "name": "_14_566A1_tittaBirk",
+   "group": 132,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 686,
+   "name": "_14_567A1_talaBirk",
+   "group": 132,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_10_261A1Say1_TrorDuAtt",
+    "RONJA_9a_148A1Say1_MattisBrukadeSaja"
+   ],
+   "alts": []
+  },
+  {
+   "id": 687,
+   "name": "_14_568A1_taBirk",
+   "group": 132,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 688,
+   "name": "_14_569A1_tittaBirk",
+   "group": 133,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 689,
+   "name": "_14_570A1_talaBirk",
+   "group": 133,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_10_264A1Say1_DetFinnsGott"
+   ],
+   "alts": []
+  },
+  {
+   "id": 690,
+   "name": "_14_571A1_taBirk",
+   "group": 133,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 691,
+   "name": "_14_572A1_tittaBirk",
+   "group": 134,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 692,
+   "name": "_14_573A1_talaBirk",
+   "group": 134,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_549A1Say1_JagArHungrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 693,
+   "name": "_14_574A1_taBirk",
+   "group": 134,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 694,
+   "name": "_12_575A1_tittaBirk",
+   "group": 135,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 695,
+   "name": "_12_576A1_talaBirk",
+   "group": 135,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_549A1Say1_JagArHungrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 696,
+   "name": "_12_577A1_taBirk",
+   "group": 135,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 697,
+   "name": "_12_578A1_tittaStoet",
+   "group": 136,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_578A1Say1_HonVerkarLugnare"
+   ],
+   "alts": []
+  },
+  {
+   "id": 698,
+   "name": "_12_579A1_talaStoet",
+   "group": 136,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_579A1Say1_ViLaterHenne"
+   ],
+   "alts": []
+  },
+  {
+   "id": 699,
+   "name": "_12_580A1_taStoet",
+   "group": 136,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_580A1Say1_DetHarInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 700,
+   "name": "_12_604A1_forbundetSto",
+   "group": 136,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "DJUR3_12_207A1Say1_StoetFrustar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 701,
+   "name": "_10_581A1_tittaBirk",
+   "group": 137,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 702,
+   "name": "_10_582A1_talaBirk",
+   "group": 137,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_549A1Say1_JagArHungrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 703,
+   "name": "_10_583A1_taBirk",
+   "group": 137,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 704,
+   "name": "_10_584A1_tittaBirk",
+   "group": 138,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 705,
+   "name": "_10_585A1_talaBirk",
+   "group": 138,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_549A1Say1_JagArHungrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 706,
+   "name": "_10_586A1_taBirk",
+   "group": 138,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 707,
+   "name": "_16_587A1_lamnaVatten",
+   "group": 138,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_16_587A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 708,
+   "name": "_16_588A1_tittaBirk",
+   "group": 139,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 709,
+   "name": "_16_589A1_talaBirk",
+   "group": 139,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_549A1Say1_JagArHungrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 710,
+   "name": "_16_590A1_taBirk",
+   "group": 139,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 711,
+   "name": "_15_591A1_tittaBirk",
+   "group": 140,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_144A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 712,
+   "name": "_15_592A1_talaBirk",
+   "group": 140,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "BIRK_9a_549A1Say1_JagArHungrig"
+   ],
+   "alts": []
+  },
+  {
+   "id": 713,
+   "name": "_15_593A1_taBirk",
+   "group": 140,
+   "verb": "hand",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_9a_146A1Say1_JagTrorInte"
+   ],
+   "alts": []
+  },
+  {
+   "id": 714,
+   "name": "_16_594A1_felMat",
+   "group": 140,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "BIRK_16_594A1Say1_NejJagVill"
+   ],
+   "alts": []
+  },
+  {
+   "id": 715,
+   "name": "_16_595A1_felEld",
+   "group": 140,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "RONJA_16_595A1Say1_NejDetGar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 716,
+   "name": "_596A1_tittaKarta",
+   "group": 141,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_inv_596A1Say1_DetDarAr"
+   ],
+   "alts": []
+  },
+  {
+   "id": 717,
+   "name": "_7_598A1_trappKnarr",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "EFFEKT_7_598A1Say1_trappKnarr",
+    "RONJA_7_598A1Say1_SchhDetKommer"
+   ],
+   "alts": []
+  },
+  {
+   "id": 718,
+   "name": "_15_608A1_garInGrotta",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 719,
+   "name": "_16_609A1_garUtGrotta",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 720,
+   "name": "_1a_614A1_garUppITorn",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 721,
+   "name": "_4_615A1_garNerFranTorn",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 722,
+   "name": "_1b_616A1_garUpp",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 723,
+   "name": "_1b_617A1_garNer",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 724,
+   "name": "_1b_618A1_garStoraSal",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 725,
+   "name": "_1c_619A1_garLovisMattis",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 726,
+   "name": "_1d_620A1_garNerKallare",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 727,
+   "name": "_6_621A1_garNerKallare",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 728,
+   "name": "_6_622A1_garUppKallare",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 729,
+   "name": "_2a_623A1_garUppStege",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 730,
+   "name": "_2a_624A1_garNerStege",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 731,
+   "name": "_2a_625A1_VaktPaMuren",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 732,
+   "name": "_12_626A1_BjorkGlantan",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 733,
+   "name": "_12_627A1_StenGlantan",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 734,
+   "name": "_15_628A1_StenForGrotta",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 735,
+   "name": "_15_629A1_StenBredvidGrotta",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 736,
+   "name": "_13_630A1_FlotenIForsen",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 737,
+   "name": "_2a_631A1_MattisLovis",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 738,
+   "name": "_7_632A1_StenIFangelset",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 739,
+   "name": "_2a_633A1_LillKlippenFjosokGarA",
+   "group": 141,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [],
+   "alts": []
+  },
+  {
+   "id": 740,
+   "name": "_12_634A1_tittaRackarn",
+   "group": 142,
+   "verb": "eye",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_194A1Say1_DetArEnVildhast"
+   ],
+   "alts": []
+  },
+  {
+   "id": 741,
+   "name": "_12_635A1_talaRackarn",
+   "group": 142,
+   "verb": "mouth",
+   "minUse": 1,
+   "next": null,
+   "says": [
+    "RONJA_12_195A1Say1_RonjaLockar",
+    "RONJA_12_198A1Say1_RackarnArEtt",
+    "DJUR2_12_198A1Say1_RackarnFrustar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 742,
+   "name": "_12_637A1_talaRackarn",
+   "group": 142,
+   "verb": "mouth",
+   "minUse": 2,
+   "next": null,
+   "says": [
+    "RONJA_12_195A1Say1_RonjaLockar",
+    "RONJA_12_215A1Say1_IdagSkaJag",
+    "DJUR2_12_198A1Say1_RackarnFrustar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 743,
+   "name": "_12_636A1_taRackarnA",
+   "group": 142,
+   "verb": "hand",
+   "minUse": 3,
+   "next": null,
+   "says": [
+    "DJUR2_12_199A1Say1_RackarnGnaggar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 744,
+   "name": "_12_638A1_geVildtoringen",
+   "group": 142,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "DJUR1_12_196A1Say1_VildtoringenGnaggar"
+   ],
+   "alts": []
+  },
+  {
+   "id": 745,
+   "name": "_12_639A1_geRackarn",
+   "group": 142,
+   "verb": "script",
+   "minUse": 0,
+   "next": null,
+   "says": [
+    "DJUR2_12_199A1Say1_RackarnGnaggar"
+   ],
+   "alts": []
+  }
+ ]
+}
