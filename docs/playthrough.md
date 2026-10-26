@@ -80,8 +80,10 @@ Result of the last runs: see "Status" at the end.
   real time only in a fast browser; the loaded headless browser needs ~10 minutes. The finish path itself (`finish()`: g8e0, back to
   BORGGARDEN in winter) is the one used by the video-end callback.
 * Lake, cave and snowball: real throws (3-4 hits, 1 hit, 2 robbers) but the win is forced by the dev handle (`win()`); the
-  lose path of the lake was seen (4 dwarves at the rock -> dialogue -> back at the tarn). The lose path of the cave game and
-  the river-with-witch falls were not exercised on purpose.
+  lose path of the lake was seen (4 dwarves at the rock -> dialogue -> back at the tarn). The lose path of the cave game is
+  covered by `tools/steps/cave-lose.mjs`: idling, the grey dwarves win after ~12 s (>= 5 at the rock), the game returns to
+  GLAENTAN with Ronja (275,317) and Birk (227,319), g8df stays 0, walking back to GROTTANUTE and clicking the cave mouth starts
+  the defence again; no console errors. The river-with-witch falls were not exercised on purpose.
 * Only one order of the free parts of act 2 (7, 8, 9) and act 3 (21, 22, 23, 24) was played.
 * Headless timing: on this machine the page ran at 4-30 fps depending on the load, so every wait in the scripts is generous.
 
