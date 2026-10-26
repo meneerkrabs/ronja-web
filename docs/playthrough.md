@@ -88,6 +88,12 @@ Result of the last runs: see "Status" at the end.
   into the water three times (~30 s), then carries her off (attack, catch, fall: river states 3 -> 10 after ~50 s); the game
   ends without g8e2, Ronja stands in GLUPAFALLET, Birk walks back, and clicking the river starts the game again; no console
   errors.
+  The snowball fight has no lose condition in the original (game-logic §5.8); its "failure" is the 30 s recovery timer, covered
+  by `tools/steps/snowball-timeout.mjs`: after 2 hits the throwing stops, the "Allafryser" warning plays ~23 s later (< 300
+  ticks), at ~29 s every robber stands up again (hit/sit bits 0) and the fight goes on; the throw bot then got 4 of 5 robbers
+  down three times and each time saw them recover 30 s after the last hit, so the win was again forced with `win()` (repeated:
+  a single `win()` stalls when Fjosok is off screen, because he only sits down while visible). After the win: g8de, back in
+  BORGGARDEN with Ronja at (478,341); no console errors.
 * Only one order of the free parts of act 2 (7, 8, 9) and act 3 (21, 22, 23, 24) was played.
 * Headless timing: on this machine the page ran at 4-30 fps depending on the load, so every wait in the scripts is generous.
 
