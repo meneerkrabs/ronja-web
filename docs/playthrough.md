@@ -86,7 +86,12 @@ Result of the last runs: see "Status" at the end.
   move to the lane of its plan's first lane change at once, also when the plan meant to wait first; that made it fall at 958 in
   the left lane every time. Fixed: the bot now takes the plan's action at the current frame.)
 * Lake, cave and snowball: real throws (3-4 hits, 1 hit, 2 robbers) but the win is forced by the dev handle (`win()`); the
-  lose path of the lake was seen (4 dwarves at the rock -> dialogue -> back at the tarn). The lose path of the cave game is
+  lose path of the lake is covered by `tools/steps/lake-lose.mjs`: idling, 4 grey dwarves stand at the rock after ~16 s, Ronja
+  screams (#506, "Sla gesprek over" offered), Mattis comes running, his "ForsvinnGradvargar" makes every dwarf fall (also the 5th
+  that reached the rock meanwhile; no new ones spawn), Ronja climbs down and the game ends in TJAERNEN at (256,344) without g8dd;
+  clicking the rock starts the game again, and that round can still be won (2 real hits, then `win()`: g8dd). No console errors.
+  (An earlier version of the test threw for 28 s in the second round and lost it again: the rock fills in 15-20 s if you hit
+  too little.) The lose path of the cave game is
   covered by `tools/steps/cave-lose.mjs`: idling, the grey dwarves win after ~12 s (>= 5 at the rock), the game returns to
   GLAENTAN with Ronja (275,317) and Birk (227,319), g8df stays 0, walking back to GROTTANUTE and clicking the cave mouth starts
   the defence again; no console errors. The river-with-witch lose path is covered by `tools/steps/river-witch-lose.mjs`: on a stone in one of the witch's
