@@ -83,7 +83,11 @@ Result of the last runs: see "Status" at the end.
   lose path of the lake was seen (4 dwarves at the rock -> dialogue -> back at the tarn). The lose path of the cave game is
   covered by `tools/steps/cave-lose.mjs`: idling, the grey dwarves win after ~12 s (>= 5 at the rock), the game returns to
   GLAENTAN with Ronja (275,317) and Birk (227,319), g8df stays 0, walking back to GROTTANUTE and clicking the cave mouth starts
-  the defence again; no console errors. The river-with-witch falls were not exercised on purpose.
+  the defence again; no console errors. The river-with-witch lose path is covered by `tools/steps/river-witch-lose.mjs`: on a stone in one of the witch's
+  lanes (the start stone 46 is in lane D, where she only dives at a raft, so standing there is safe) the witch knocks Ronja
+  into the water three times (~30 s), then carries her off (attack, catch, fall: river states 3 -> 10 after ~50 s); the game
+  ends without g8e2, Ronja stands in GLUPAFALLET, Birk walks back, and clicking the river starts the game again; no console
+  errors.
 * Only one order of the free parts of act 2 (7, 8, 9) and act 3 (21, 22, 23, 24) was played.
 * Headless timing: on this machine the page ran at 4-30 fps depending on the load, so every wait in the scripts is generous.
 
