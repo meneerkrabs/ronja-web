@@ -4,7 +4,7 @@
 
 import { O, world, registerMinigame, doDialogAni, sample, setPan, S } from '../api.ts';
 import { snowballEnded } from '../story.ts';
-import { effect, hideStop, mFade, mPlay, mStop, mVol, rnd, trackIs } from './_mg.ts';
+import { devHandle, effect, hideStop, mFade, mPlay, mStop, mVol, rnd, trackIs } from './_mg.ts';
 
 const R = () => O.RONJA;
 const BALL = () => O.SNOBOLL;
@@ -228,3 +228,5 @@ registerMinigame({
   cursor: () => 'prickaRovare',
   end() { st.active = false; hideStop(BALL()); },
 });
+
+devHandle('snowball', { st, win() { st.hit = 0x1f; st.timer = 0x5dc; } });

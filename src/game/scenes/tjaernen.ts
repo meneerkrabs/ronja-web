@@ -25,7 +25,6 @@ const script: SceneScript = {
     if (!inInv(O.VITMOSSA) && O.VITMOSSA.holder !== O.DJUR3) O.VITMOSSA.setTrack(T(328)); // vitmossa__gen_still
     if (gv.act === 2) {
       if (!g(0x8fc)) {
-        if (O.BIRK.currDirec < 0) O.BIRK.currDirec = 3; // Birk has never stood anywhere yet: a standStill without facing would never report arrival
         O.BIRK.setTrack(T(715));  // birk_14_178A1_snubblaBirk
         O.DJUR1.setTrack(T(1093)); // DJUR1_14_178A1_SnubblaBirk
         doDialogAni(303, null, O.BIRK, false);

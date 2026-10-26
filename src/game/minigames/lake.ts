@@ -4,7 +4,7 @@
 // won after 21 direct hits (g8dd).
 
 import { O, ui, world, setG, hook, doDialogAni, enterScene, endMinigame, setPan, sample, registerMinigame, TF_LOOP } from '../api.ts';
-import { Swarm, bgDepth, rectDepth, effect, ajEffect, hideStop, landed, mFade, mPlay, mStop, mVol, rnd, trackIs, type Slot } from './_mg.ts';
+import { Swarm, devHandle, bgDepth, rectDepth, effect, ajEffect, hideStop, landed, mFade, mPlay, mStop, mVol, rnd, trackIs, type Slot } from './_mg.ts';
 
 const R = () => O.RONJA;
 const KOTTE = () => O.KOTTE;
@@ -307,3 +307,5 @@ registerMinigame({
   cursor: () => 'prickaKotte',
   end() { st.active = false; sample.stop(); },
 });
+
+devHandle('lake', { st, get swarm() { return swarm; }, win() { swarm.hits = 21; swarm.fallAll(); } });

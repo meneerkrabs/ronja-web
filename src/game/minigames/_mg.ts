@@ -191,3 +191,11 @@ export class Swarm {
     return false;
   }
 }
+
+/** Debug hook for tools/steps (?debug=1): `globalThis.__mg[name]` exposes a minigame's state (bots, quick wins in QA playthroughs). */
+export function devHandle(name: string, handle: object): void {
+  if (typeof location === 'undefined' || !new URLSearchParams(location.search).has('debug')) return;
+  const w = globalThis as Record<string, unknown>;
+  const mg = (w.__mg ??= {}) as Record<string, object>;
+  mg[name] = handle;
+}

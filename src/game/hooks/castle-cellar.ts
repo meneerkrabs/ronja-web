@@ -29,8 +29,7 @@ hook('RONJA_7_132A1Say1_slapaStenar', {
     setG(0x8f5, 1);
     enterScene('FANGELSEHALOR', { force: true });
     O.RONJA.hide();
-    playMovie('fangelse.smk', 0, 0, (aborted) => {
-      if (aborted) return;
+    playMovie('fangelse.smk', 0, 0, () => { // (a movie that cannot be loaded must not leave Ronja hidden either)
       const R = O.RONJA;
       R.followGround = true;
       R.standStill(432, 392, 0, 3);

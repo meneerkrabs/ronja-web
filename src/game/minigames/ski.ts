@@ -465,6 +465,12 @@ const ski: Minigame = {
     });
   },
   tick,
+  // the story part of winter.smk (frames 0..661, 44 s) can be skipped: decode silently up to the pause frame (0x296)
+  skipOffer() {
+    const v = video;
+    if (!v || finished || state > -2 || v.frame >= 0x296 - 1) return null;
+    return { label: 'Sla film over', action: () => { v.fastForward(0x296 - 1); v.startAudio(); } };
+  },
   cursor: () => 'invisible',
   draw,
   end() {
@@ -481,4 +487,6 @@ registerMinigame(ski);
 (globalThis as unknown as { __ski: unknown }).__ski = {
   info: () => ({ state, c8, cnt, crashes, crashFrame, frame: video?.frame ?? -1, shown: video?.shown ?? -1, paused: video?.paused ?? null, x: O.RONJA.x, y: O.RONJA.y, scale: O.RONJA.scale, dir, track: O.RONJA.playing?.name ?? null, finished, warpOff }),
   mask: (f: number) => OBSTACLES[f - OBSTACLE_FIRST] ?? 0,
+  /** QA: end the run as if the video had reached its last frame (headless runs play it at a fraction of real time) */
+  finish: () => finish(),
 };

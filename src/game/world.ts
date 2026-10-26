@@ -372,8 +372,10 @@ export class Obj {
 
   /** standStillAtDestination (FUN_00456e80): stop walking, place at (x,y,z) facing `dir` (-1 keep) with the stand track. */
   standStill(x: number, y: number, z: number, dir: number = -1, interrupted = true) {
-    if (dir === -1) { if (this.currDirec < 0) return; }
-    else this.currDirec = dir < 0 ? -1 : (Math.abs(dir) & 7);
+    // FUN_00456e80 returns an error here (facing unset, dir -1) and never reports arrival; in the original every object has
+    // learnt a facing from its first Still/Walk track by then, ours (BIRK before he ever stood anywhere) may not: stand facing S
+    // for now (without storing it) so that a walk still arrives and its callback fires
+    if (dir !== -1) this.currDirec = dir < 0 ? -1 : (Math.abs(dir) & 7);
     this.path = [];
     this.hidden = false;
     this.setPosition(x, y, z);

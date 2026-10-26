@@ -59,6 +59,8 @@ export interface Minigame {
   draw?(r: Renderer): void;
   /** Called by `endMinigame()` before the mode is reset to 0. */
   end?(): void;
+  /** "Sla over" offer while the minigame is running (e.g. the story part of the ski run); null = none. */
+  skipOffer?(): { label: string; action: () => void } | null;
 }
 
 const minigames = new Map<number, Minigame>();

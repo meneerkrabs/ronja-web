@@ -2,6 +2,7 @@
 // roll FUN_00429c70, rank FUN_00429cc0, evaluation FUN_00429dc0, result FUN_00428fe0, leave FUN_0042a280.
 // Objects: DJUR1/DJUR2 = Ronja's dice, DJUR3/GRADVARG = Skalle-Per's dice, BIRK = lit score engraving.
 
+import { devHandle } from './_mg.ts';
 import {
   O, registerMinigame, endMinigame, enterScene, setPan, playMusic, stopMusic, fadeMusic, sample, doDialogAni, lastDialog, hook,
 } from '../api.ts';
@@ -206,3 +207,5 @@ registerMinigame({
   cursor,
   end() { d.active = false; sample.stop(); for (const o of [O.DJUR1, O.DJUR2, O.DJUR3, O.GRADVARG, O.BIRK, O.ELD1, O.ELD2]) { o.stopTrack(); o.hide(); } },
 });
+
+devHandle('dice', { d });

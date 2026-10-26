@@ -6,7 +6,7 @@
 import { O, ui, world, registerMinigame, sample, setPan, TF_LOOP, type Obj } from '../api.ts';
 import { caveDefenceEnded } from '../story.ts';
 import {
-  Swarm, bgDepth, rectDepth, effect, ajEffect, hideStop, landed, mFade, mPlay, mStop, mVol, rnd, trackIs, type Slot,
+  Swarm, devHandle, bgDepth, rectDepth, effect, ajEffect, hideStop, landed, mFade, mPlay, mStop, mVol, rnd, trackIs, type Slot,
 } from './_mg.ts';
 
 const R = () => O.RONJA;
@@ -369,3 +369,5 @@ registerMinigame({
   cursor: () => 'prickaKotte',
   end() { st.active = false; },
 });
+
+devHandle('cave', { st, get swarm() { return swarm; }, win() { swarm.hits = 30; swarm.fallAll(); } });

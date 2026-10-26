@@ -2,6 +2,7 @@
 // click FUN_00421d10, arrival callback LAB_00421ab0, flame FUN_004215b0/FUN_004218f0, leave FUN_00422230, LabyrintList 0x491b90.
 // Birk's object is the torch flame; Ronja gets the torch-carrying track sets while inside.
 
+import { devHandle } from './_mg.ts';
 import { O, setG, regionAt, registerMinigame, endMinigame, enterScene, sceneGfx, setPan, playMusic, stopMusic, sample } from '../api.ts';
 
 /** exits[r-1] for click regions 1..5: -1 none, 0 back to the cellar, 100 Birk's prison. gfx = room picture, hint = correct exit. */
@@ -216,3 +217,5 @@ registerMinigame({
   cursor,
   end() { lab.active = false; setTorchSets(false); },
 });
+
+devHandle('lab', { lab, LIST });

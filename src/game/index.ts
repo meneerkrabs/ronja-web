@@ -8,11 +8,16 @@ import { O, setPan, world } from './world.ts';
 import { gv, setG } from './state.ts';
 import { SCENE_NAMES, type SceneName } from './types.ts';
 import * as api from './api.ts';
+import * as dialogMod from './dialog.ts';
+import * as engineMod from './engine.ts';
+import * as registryMod from './registry.ts';
+import * as inventoryMod from './inventory.ts';
+import * as uiMod from './ui.ts';
 
 export async function startGame(display: Display, files: GameFiles, onExit: () => void): Promise<void> {
   await bootGame({ display, files });
   appHooks.onExit = () => { shutdownGame(); onExit(); };
-  (globalThis as { __ronja?: unknown }).__ronja = { ...api, world, gv, O };
+  (globalThis as { __ronja?: unknown }).__ronja = { ...api, world, gv, O, dev: { ...dialogMod, ...engineMod, ...registryMod, ...inventoryMod, ...uiMod } };
   const q = new URLSearchParams(location.search);
   const jump = q.get('scene')?.toUpperCase() as SceneName | undefined;
   if (jump && SCENE_NAMES.includes(jump)) {

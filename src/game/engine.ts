@@ -287,6 +287,7 @@ export interface BootOptions {
 /** What "Sla over" can do right now (Display.skipProvider). */
 function skipOffer(): { label: string; action: () => void } | null {
   if (ui.movie) return { label: ui.credits ? 'Sla aftiteling over' : 'Sla film over', action: skipMedia };
+  if (gv.mode !== 0) { const o = minigameFor(gv.mode)?.skipOffer?.(); if (o) return o; }
   if (dialogActive() && !choosing()) return { label: 'Sla gesprek over', action: skipDialogStep };
   if (cutsceneActive()) return { label: 'Sla over', action: fastForwardCutscene };
   return null;
