@@ -76,9 +76,15 @@ Result of the last runs: see "Status" at the end.
 
 ## Remaining known issues / not covered
 
-* The ski run is played for two minutes with real steering (crashes included) and then ended with `__ski.finish()`: the video plays at
-  real time only in a fast browser; the loaded headless browser needs ~10 minutes. The finish path itself (`finish()`: g8e0, back to
-  BORGGARDEN in winter) is the one used by the video-end callback.
+* In the act 2 run the ski run is played for two minutes with real steering (crashes included) and then ended with `__ski.finish()`.
+  The whole course with its natural end is covered by `tools/steps/ski-crash.mjs` (640x480). The ski run has no lose condition in
+  the original (game-logic §5.7), a crash only costs time, so the test first leaves the mouse on x=320: Ronja falls at 794 and 810
+  (no seek before 812, the video runs on during the fall), then at 977 (only the left lane is free at 977-981) again and again, each
+  time back to checkpoint 812: without steering she never gets further (furthest frame 992). Then the lane bot steers from that
+  checkpoint without a crash to the forced end crash at 2055, the end of winter.smk (Birk saves Ronja) plays and the video-end
+  callback ends the run by itself: g8e0, BORGGARDEN, Ronja (400,400); no console errors. (The lane bot in `qa-lib.mjs` used to
+  move to the lane of its plan's first lane change at once, also when the plan meant to wait first; that made it fall at 958 in
+  the left lane every time. Fixed: the bot now takes the plan's action at the current frame.)
 * Lake, cave and snowball: real throws (3-4 hits, 1 hit, 2 robbers) but the win is forced by the dev handle (`win()`); the
   lose path of the lake was seen (4 dwarves at the rock -> dialogue -> back at the tarn). The lose path of the cave game is
   covered by `tools/steps/cave-lose.mjs`: idling, the grey dwarves win after ~12 s (>= 5 at the rock), the game returns to

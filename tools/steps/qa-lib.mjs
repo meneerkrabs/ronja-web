@@ -213,12 +213,12 @@ export const mk = (ctx) => {
     const plan = (masks, cur) => {
       const safeLane = (t, l) => !hit(masks[t], LANE_X[l]);
       const reach = Array.from({ length: W + 10 }, () => [null, null, null]);
-      reach[0][cur] = { first: -1, moves: 0 };
+      reach[0][cur] = { first: null, moves: 0 }; // first = the action at frame 0 (-1 stay, n move), not the first move of the plan
       for (let t = 0; t < W; t++) for (let l = 0; l < 3; l++) {
         const r = reach[t][l]; if (!r) continue;
         const put = (tt, ll, first, moves) => { if (tt >= W + 10) return; const o = reach[tt][ll]; if (!o || moves < o.moves) reach[tt][ll] = { first, moves }; };
-        if (safeLane(t, l)) put(t + 1, l, r.first === -1 ? -1 : r.first, r.moves);
-        for (let n = 0; n < 3; n++) { if (n === l) continue; const d = Math.abs(n - l) === 1 ? 5 : 9; let ok = true; for (let k = 0; k < d && ok; k++) for (let q = Math.min(l, n); q <= Math.max(l, n); q++) if (t + k < masks.length && !safeLane(t + k, q)) ok = false; if (ok) put(t + d, n, r.first === -1 ? n : r.first, r.moves + 1); }
+        if (safeLane(t, l)) put(t + 1, l, t === 0 ? -1 : r.first, r.moves);
+        for (let n = 0; n < 3; n++) { if (n === l) continue; const d = Math.abs(n - l) === 1 ? 5 : 9; let ok = true; for (let k = 0; k < d && ok; k++) for (let q = Math.min(l, n); q <= Math.max(l, n); q++) if (t + k < masks.length && !safeLane(t + k, q)) ok = false; if (ok) put(t + d, n, t === 0 ? n : r.first, r.moves + 1); }
       }
       let best = null; for (let l = 0; l < 3; l++) { const r = reach[W][l]; if (r && (!best || r.moves < best.moves)) best = r; }
       return best ? best.first : null; // -1 stay, 0..2 lane to go to, null no safe plan (just try the nearest safe)
